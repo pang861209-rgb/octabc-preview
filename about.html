@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>회사소개 | (주)동양케미칼테크</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<meta name="description" content="(주)동양케미칼테크는 무기·유기 화학약품과 친환경 바이오촉매 솔루션을 공급하는 부산 소재 화학 전문기업입니다. 신뢰·전문성·친환경을 핵심 가치로 합니다." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#0a2230;--ink-soft:#16384a;--aqua:#10a98e;--aqua-deep:#0c7d68;--aqua-tint:#e7f4f1;
+    --sand:#f6f4ef;--paper:#fbfaf7;--line:rgba(10,34,48,.12);--muted:#5d6f78;
+    --display:"Noto Sans KR",system-ui,sans-serif;--sans:"Noto Sans KR",system-ui,sans-serif;--maxw:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+  .eyebrow{font-family:var(--sans);font-size:.76rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--aqua-deep);background:var(--aqua-tint);padding:7px 14px;border-radius:999px;display:inline-block}
+
+  header.nav{position:sticky;top:0;z-index:50;background:rgba(251,250,247,.86);backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line);padding:14px 0}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700}
+  .brand .mark{width:44px;height:44px;display:grid;place-items:center;flex:none}
+  .brand .mark img{width:100%;height:100%;object-fit:contain;display:block}
+  .brand b{font-size:1.05rem}
+  .brand span{font-size:.72rem;color:var(--muted);font-weight:500;display:block;letter-spacing:.04em}
+  .nav-links{display:flex;align-items:center;gap:34px}
+  nav ul{display:flex;gap:34px;list-style:none;font-size:.92rem;font-weight:500}
+  nav a{position:relative;padding:4px 0;color:var(--ink-soft)}
+  nav a.active{color:var(--aqua-deep)}
+  nav a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--aqua);transition:width .3s}
+  nav a:hover::after,nav a.active::after{width:100%}
+  .nav-cta{background:var(--ink);color:#fff;padding:10px 20px;border-radius:999px;font-size:.86rem;font-weight:600;transition:background .25s}
+  .nav-cta:hover{background:var(--aqua-deep)}
+  @media(max-width:860px){.nav-links ul,.nav-cta{display:none}}
+
+  .page-hero{padding:70px 0 60px;background:radial-gradient(120% 90% at 90% -20%, rgba(16,169,142,.14), transparent 55%),var(--paper);border-bottom:1px solid var(--line)}
+  .crumbs{font-size:.86rem;color:var(--muted);margin-bottom:18px}
+  .crumbs a:hover{color:var(--aqua-deep)}
+  .page-hero h1{font-family:var(--display);font-weight:500;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.02em;margin-top:14px}
+  .page-hero .sub{margin-top:16px;color:var(--muted);font-size:1.1rem;max-width:60ch}
+
+  section{padding:80px 0}
+  .greet{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  @media(max-width:860px){.greet{grid-template-columns:1fr;gap:36px}}
+  .greet h2{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.3;letter-spacing:-.01em}
+  .greet h2 em{font-style:normal;color:var(--aqua-deep)}
+  .greet .body p{color:var(--ink-soft);font-size:1.05rem}
+  .greet .body p+p{margin-top:16px}
+  .greet .sign{margin-top:26px;font-size:.95rem;color:var(--muted)}
+  .greet .sign b{color:var(--ink);font-size:1.1rem;font-weight:700}
+
+  .values{background:var(--sand)}
+  .vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:46px}
+  @media(max-width:760px){.vgrid{grid-template-columns:1fr}}
+  .vcard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:32px 28px;transition:transform .3s,box-shadow .3s}
+  .vcard:hover{transform:translateY(-5px);box-shadow:0 24px 46px -26px rgba(10,34,48,.4)}
+  .vcard .ic{width:54px;height:54px;border-radius:14px;background:var(--aqua-tint);display:grid;place-items:center;margin-bottom:20px}
+  .vcard .ic svg{width:27px;height:27px;stroke:var(--aqua-deep)}
+  .vcard .num{font-family:var(--display);font-style:normal;color:var(--aqua-deep);font-size:.85rem}
+  .vcard h3{font-size:1.2rem;font-weight:700;margin-top:4px}
+  .vcard p{color:var(--muted);margin-top:10px;font-size:.96rem}
+
+  .sec-head{max-width:60ch}
+  .sec-head h2{font-family:var(--display);font-weight:500;font-size:clamp(1.8rem,3.2vw,2.5rem);letter-spacing:-.015em;margin-top:16px}
+  .sec-head p{margin-top:14px;color:var(--muted);font-size:1.05rem}
+
+  .overview{margin-top:46px;border-top:2px solid var(--ink)}
+  .orow{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:20px 8px;border-bottom:1px solid var(--line)}
+  @media(max-width:620px){.orow{grid-template-columns:110px 1fr;gap:12px}}
+  .orow .k{font-weight:700;color:var(--ink)}
+  .orow .v{color:var(--ink-soft)}
+  .orow .v a{color:var(--aqua-deep);font-weight:600}
+
+  .cta{background:var(--ink);color:#eef5f3;border-radius:22px;padding:52px;margin:60px auto 0;text-align:center;position:relative;overflow:hidden}
+  .cta::after{content:"";position:absolute;right:-60px;bottom:-60px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,var(--aqua),transparent 70%);opacity:.4}
+  .cta h2{font-family:var(--display);font-weight:500;font-size:1.9rem;color:#fff;position:relative}
+  .cta p{margin-top:12px;color:#a9c0bd;position:relative}
+  .cta .btn{margin-top:26px;display:inline-flex;background:var(--aqua);color:#fff;padding:15px 32px;border-radius:999px;font-weight:600;position:relative;transition:transform .25s}
+  .cta .btn:hover{transform:translateY(-2px)}
+
+  footer{background:#06161f;color:#8ea7a4;padding:54px 0 36px;font-size:.9rem}
+  .foot-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:30px}
+  .foot-brand b{color:#fff;font-size:1.1rem}
+  .foot-brand p{margin-top:10px;max-width:34ch;color:#7d9794}
+  .foot-cols{display:flex;gap:56px;flex-wrap:wrap}
+  .foot-cols h4{color:#cfe0dd;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px}
+  .foot-cols a,.foot-cols div{display:block;color:#8ea7a4;margin-bottom:9px}
+  .foot-cols a:hover{color:#5fd3bb}
+  .foot-bottom{margin-top:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#5e7572;font-size:.82rem}
+
+  .timeline{margin-top:48px;position:relative;border-left:2px solid rgba(10,34,48,.14);padding-left:34px;max-width:760px}
+  .titem{position:relative;padding-bottom:36px}
+  .titem:last-child{padding-bottom:0}
+  .titem::before{content:"";position:absolute;left:-43px;top:2px;width:16px;height:16px;border-radius:50%;background:var(--aqua);box-shadow:0 0 0 5px var(--aqua-tint)}
+  .tyear{font-size:1.1rem;font-weight:900;color:var(--aqua-deep)}
+  .tdesc{margin-top:6px;color:var(--ink-soft)}
+  .hist-note{margin-top:30px;font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="mark"><img src="images/logo.png" alt="(주)동양케미칼테크 OCT 로고" /></span>
+      <span><b>(주)동양케미칼테크</b><span>친환경 화학 솔루션 전문기업</span></span>
+    </a>
+    <div class="nav-links">
+      <nav>
+        <ul>
+          <li><a href="about.html" class="active">회사소개</a></li>
+          <li><a href="products.html">제품</a></li>
+          <li><a href="index.html#partners">대리점</a></li>
+          <li><a href="index.html#news">소식</a></li>
+          <li><a href="index.html#contact">오시는길</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="index.html#contact">문의하기</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">홈</a> &nbsp;›&nbsp; 회사소개</div>
+    <span class="eyebrow">About Us</span>
+    <h1>화학으로 더 깨끗한 산업 환경을 만듭니다</h1>
+    <p class="sub">(주)동양케미칼테크는 무기·유기 화학약품과 친환경 바이오촉매 솔루션을 공급하는 부산 소재 화학 전문기업입니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap greet">
+    <div>
+      <span class="eyebrow">CEO Message</span>
+      <h2 style="margin-top:18px">신뢰할 수 있는 화학 솔루션으로<br><em>고객의 현장</em>과 함께합니다.</h2>
+    </div>
+    <div class="body">
+      <p>(주)동양케미칼테크는 다양한 종류의 무기·유기 화학약품을 수입·판매하는 전문 기업입니다. 친환경 바이오촉매 기반의 솔루션을 비롯한 검증된 화학 제품을 공급하며, 수처리·해양·산업 현장의 까다로운 과제를 보다 안전하고 효율적인 방식으로 해결하고 있습니다.</p>
+      <p>오랜 기간 축적한 공급 경험과 신뢰할 수 있는 제조사 네트워크를 바탕으로, 고객이 필요로 하는 화학 솔루션을 정확하고 안정적으로 전달하는 것을 가장 중요한 가치로 삼습니다. 앞으로도 정직과 전문성을 바탕으로 고객과 오래 함께하는 동반자가 되겠습니다.</p>
+      <div class="sign">대표이사 <b>최 지 욱</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="values">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Core Values</span>
+      <h2>우리가 일하는 방식</h2>
+    </div>
+    <div class="vgrid">
+      <div class="vcard">
+        <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <div class="num">01</div>
+        <h3>신뢰</h3>
+        <p>검증된 제조사의 정품만을, 약속한 품질과 납기로 정확하게 공급합니다.</p>
+      </div>
+      <div class="vcard">
+        <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 21c5-3 7-7 7-11a7 7 0 0 0-14 0c0 4 2 8 7 11z"/><path d="M12 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></div>
+        <div class="num">02</div>
+        <h3>친환경</h3>
+        <p>바이오촉매 기반의 친환경 솔루션으로 더 안전하고 지속 가능한 처리를 지향합니다.</p>
+      </div>
+      <div class="vcard">
+        <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M9 3h6l-1 6 4 2-8 10 1-8-4-2z"/></svg></div>
+        <div class="num">03</div>
+        <h3>전문성</h3>
+        <p>화학약품 전반에 대한 풍부한 경험으로 현장에 맞는 최적의 솔루션을 제안합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="history">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">History</span>
+      <h2>회사 연혁</h2>
+      <p>(주)동양케미칼테크가 걸어온 길입니다.</p>
+    </div>
+    <div class="timeline">
+      <div class="titem"><div class="tyear">1962</div><div class="tdesc">일진화공 설립</div></div>
+      <div class="titem"><div class="tyear">1998</div><div class="tdesc">(주)동양케미칼테크 창업</div></div>
+      <div class="titem"><div class="tyear">2009</div><div class="tdesc">일진화공 · (주)동양케미칼테크 통합</div></div>
+      <div class="titem"><div class="tyear">2012</div><div class="tdesc">(사)부산화학물질관리협회 제14대 협회장 취임</div></div>
+      <div class="titem"><div class="tyear">2015</div><div class="tdesc">최지욱 대표이사 환경부장관 표창 및 수상</div></div>
+      <div class="titem"><div class="tyear">2020</div><div class="tdesc">최지욱 대표이사 중소벤처기업부장관 표창 및 수상</div></div>
+      <div class="titem"><div class="tyear">2021</div><div class="tdesc">한국화학물질관리협회 부회장 취임</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Company Overview</span>
+      <h2>회사 개요</h2>
+    </div>
+    <div class="overview">
+      <div class="orow"><div class="k">회사명</div><div class="v">(주)동양케미칼테크</div></div>
+      <div class="orow"><div class="k">대표이사</div><div class="v">최지욱</div></div>
+      <div class="orow"><div class="k">사업분야</div><div class="v">무기·유기 화학약품 수입 및 판매, 친환경 바이오촉매 솔루션 공급</div></div>
+      <div class="orow"><div class="k">적용현장</div><div class="v">정수·하폐수 처리, 해양오염·기름 분산, 표면·금속 세정, 토양 복원, 농업</div></div>
+      <div class="orow"><div class="k">소재지</div><div class="v">부산광역시 강서구 유통단지1로58번길 48</div></div>
+      <div class="orow"><div class="k">대표전화</div><div class="v"><a href="tel:051-973-5222">051-973-5222</a> &nbsp;/&nbsp; 팩스 051-973-7222</div></div>
+      <div class="orow"><div class="k">이메일</div><div class="v"><a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a></div></div>
+      <div class="orow"><div class="k">운영시간</div><div class="v">평일 09:00 ~ 17:00 (토·일·공휴일 휴무)</div></div>
+      <div class="orow"><div class="k">사업자등록번호</div><div class="v">605-81-29626</div></div>
+    </div>
+
+    <div class="cta">
+      <h2>제품 상담이 필요하신가요?</h2>
+      <p>필요하신 화학약품과 적용 현장을 알려주시면 최적의 솔루션을 안내해 드립니다.</p>
+      <a class="btn" href="index.html#contact">문의 및 오시는 길 →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <b>(주)동양케미칼테크</b>
+        <p>친환경 화학 솔루션으로 더 깨끗한 산업 환경을 만들어 갑니다.</p>
+      </div>
+      <div class="foot-cols">
+        <div>
+          <h4>바로가기</h4>
+          <a href="about.html">회사소개</a>
+          <a href="products.html">제품</a>
+          <a href="index.html#partners">대리점</a>
+          <a href="index.html#contact">오시는길</a>
+        </div>
+        <div>
+          <h4>연락처</h4>
+          <a href="tel:051-973-5222">051-973-5222</a>
+          <a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a>
+          <div>평일 09:00~17:00</div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 (주)동양케미칼테크. All rights reserved.</div>
+      <div>대표 최지욱 · 사업자등록번호 605-81-29626</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

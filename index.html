@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>(주)동양케미칼테크 | 친환경 화학 솔루션 전문기업</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<meta name="description" content="(주)동양케미칼테크는 무기·유기 화학약품과 친환경 바이오촉매 솔루션을 공급합니다. 수처리, 해양오염 방제, 표면세정, 토양복원, 농업 분야의 검증된 화학 솔루션 파트너." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#0a2230;          /* deep teal-navy */
+    --ink-soft:#16384a;
+    --aqua:#10a98e;         /* bio / water accent */
+    --aqua-deep:#0c7d68;
+    --aqua-tint:#e7f4f1;
+    --sand:#f6f4ef;         /* warm off-white */
+    --paper:#fbfaf7;
+    --line:rgba(10,34,48,.12);
+    --muted:#5d6f78;
+    --display:"Noto Sans KR", system-ui, sans-serif;
+    --sans:"Noto Sans KR", system-ui, sans-serif;
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans);
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+    word-break:keep-all;
+    overflow-wrap:break-word;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+  .eyebrow{
+    font-family:var(--sans);
+    font-size:.76rem;font-weight:700;
+    letter-spacing:.04em;text-transform:uppercase;
+    color:var(--aqua-deep);background:var(--aqua-tint);
+    padding:7px 14px;border-radius:999px;display:inline-block;
+  }
+
+  /* ---------- NAV ---------- */
+  header.nav{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    transition:background .35s ease, box-shadow .35s ease, padding .35s ease;
+    padding:22px 0;
+  }
+  header.nav.scrolled{
+    background:rgba(251,250,247,.86);
+    backdrop-filter:blur(12px);
+    box-shadow:0 1px 0 var(--line);
+    padding:14px 0;
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:-.01em}
+  .brand .mark{width:44px;height:44px;display:grid;place-items:center;flex:none}
+  .brand .mark img{width:100%;height:100%;object-fit:contain;display:block}
+  .brand b{font-size:1.05rem}
+  .brand span{font-size:.72rem;color:var(--muted);font-weight:500;display:block;letter-spacing:.04em}
+  nav ul{display:flex;gap:34px;list-style:none;font-size:.92rem;font-weight:500}
+  nav a{position:relative;padding:4px 0;color:var(--ink-soft)}
+  nav a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--aqua);transition:width .3s}
+  nav a:hover::after{width:100%}
+  .nav-cta{background:var(--ink);color:#fff;padding:10px 20px;border-radius:999px;font-size:.86rem;font-weight:600;transition:background .25s, transform .25s}
+  .nav-cta:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .nav-links{display:flex;align-items:center;gap:34px}
+  @media(max-width:860px){.nav-links ul,.nav-cta{display:none}}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    padding:190px 0 120px;
+    background:
+      radial-gradient(120% 90% at 85% -10%, rgba(16,169,142,.16), transparent 55%),
+      radial-gradient(100% 80% at 0% 110%, rgba(10,34,48,.06), transparent 60%),
+      var(--paper);
+    overflow:hidden;
+  }
+  .hero::before{ /* faint molecular grid */
+    content:"";position:absolute;inset:0;
+    background-image:radial-gradient(circle, rgba(10,34,48,.05) 1px, transparent 1px);
+    background-size:34px 34px;
+    -webkit-mask-image:linear-gradient(to bottom, transparent, #000 30%, transparent 92%);
+    mask-image:linear-gradient(to bottom, transparent, #000 30%, transparent 92%);
+    z-index:0;
+  }
+  .hero .wrap{position:relative;z-index:1}
+  .hero h1{
+    font-family:var(--display);
+    font-weight:500;
+    font-size:clamp(2.3rem,5vw,3.9rem);
+    line-height:1.12;
+    letter-spacing:-.02em;
+    margin:26px 0 0;
+    max-width:20ch;
+    word-break:keep-all;
+  }
+  .hero h1 em{font-style:normal;color:var(--aqua-deep)}
+  .hero .lede{
+    margin:30px 0 0;font-size:1.12rem;color:var(--muted);max-width:52ch;
+  }
+  .hero-actions{margin-top:40px;display:flex;gap:16px;flex-wrap:wrap}
+  .btn{padding:15px 30px;border-radius:999px;font-weight:600;font-size:.95rem;transition:transform .25s, box-shadow .25s, background .25s;display:inline-flex;align-items:center;gap:.6em}
+  .btn-primary{background:var(--aqua);color:#fff;box-shadow:0 12px 30px -10px rgba(16,169,142,.7)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 38px -10px rgba(16,169,142,.8)}
+  .btn-ghost{border:1px solid var(--line);color:var(--ink)}
+  .btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+
+  .hero-stats{
+    margin-top:78px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+    border-top:1px solid var(--line);
+  }
+  .hero-stats div{padding:26px 26px 8px 0}
+  .hero-stats .n{font-family:var(--display);font-size:2.1rem;color:var(--ink);line-height:1}
+  .hero-stats .l{font-size:.85rem;color:var(--muted);margin-top:8px}
+  @media(max-width:720px){.hero-stats{grid-template-columns:repeat(2,1fr)}}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- BUILDING SHOWCASE ---------- */
+  .building{padding:6px 0 96px}
+  .building .frame{position:relative;border-radius:22px;overflow:hidden;background:var(--sand);aspect-ratio:21/8;box-shadow:0 40px 80px -42px rgba(10,34,48,.55)}
+  .building img{width:100%;height:100%;object-fit:cover;display:block}
+  .building .ph{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);text-align:center;padding:20px;font-size:.95rem;line-height:1.7}
+  .building .cap{position:absolute;left:0;right:0;bottom:0;padding:64px 36px 28px;background:linear-gradient(to top,rgba(6,22,31,.82),transparent);color:#fff}
+  .building .cap b{font-size:1.25rem;font-weight:700;display:block}
+  .building .cap span{color:#bcd3cf;font-size:.92rem}
+  @media(max-width:640px){.building .frame{aspect-ratio:16/11}.building .cap{padding:46px 22px 20px}}
+
+  /* ---------- SECTION SHELL ---------- */
+  section{padding:110px 0}
+  .sec-head{max-width:60ch}
+  .sec-head h2{font-family:var(--display);font-weight:500;font-size:clamp(1.9rem,3.6vw,2.8rem);line-height:1.15;letter-spacing:-.015em;margin:18px 0 0}
+  .sec-head p{margin-top:18px;color:var(--muted);font-size:1.05rem}
+
+  /* ---------- ABOUT ---------- */
+  .about{background:var(--sand)}
+  .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center;margin-top:56px}
+  @media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:40px}}
+  .about-grid p+p{margin-top:18px}
+  .about-grid .body{color:var(--ink-soft);font-size:1.05rem}
+  .panel{
+    background:var(--ink);color:#dfeae8;border-radius:20px;padding:38px;position:relative;overflow:hidden;
+    box-shadow:0 30px 60px -30px rgba(10,34,48,.5);
+  }
+  .panel::after{content:"";position:absolute;right:-40px;top:-40px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,var(--aqua),transparent 70%);opacity:.5}
+  .panel h3{font-family:var(--display);font-weight:500;font-size:1.4rem;color:#fff;position:relative}
+  .panel ul{list-style:none;margin-top:22px;position:relative}
+  .panel li{padding:14px 0;border-top:1px solid rgba(255,255,255,.12);display:flex;gap:14px;align-items:flex-start;font-size:.96rem}
+  .panel li:first-child{border-top:none}
+  .panel li b{color:#fff;font-weight:600;min-width:80px;display:inline-block}
+
+  /* ---------- PRODUCTS ---------- */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
+  @media(max-width:860px){.cards{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.cards{grid-template-columns:1fr}}
+  .card{
+    background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 28px;
+    transition:transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .35s;
+    position:relative;overflow:hidden;
+  }
+  .card:hover{transform:translateY(-6px);box-shadow:0 26px 50px -28px rgba(10,34,48,.45);border-color:transparent}
+  .card .ic{width:52px;height:52px;border-radius:13px;background:var(--aqua-tint);display:grid;place-items:center;margin-bottom:20px;transition:background .35s}
+  .card:hover .ic{background:var(--aqua)}
+  .card .ic svg{width:26px;height:26px;stroke:var(--aqua-deep);transition:stroke .35s}
+  .card:hover .ic svg{stroke:#fff}
+  .card h3{font-size:1.16rem;font-weight:700;letter-spacing:-.01em}
+  .card .tag{font-family:var(--display);font-style:normal;font-size:.82rem;color:var(--aqua-deep);display:block;margin-bottom:6px}
+  .card p{margin-top:10px;color:var(--muted);font-size:.95rem}
+
+  /* ---------- PARTNERS ---------- */
+  .partners{background:var(--ink);color:#eef5f3}
+  .partners .sec-head h2{color:#fff}
+  .partners .sec-head p{color:#a9c0bd}
+  .partners .eyebrow{color:#bff0e4;background:rgba(95,211,187,.16)}
+  .plogos{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:54px}
+  @media(max-width:720px){.plogos{grid-template-columns:1fr}}
+  .plogo{
+    display:block;border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:30px;
+    background:rgba(255,255,255,.03);transition:background .3s, transform .3s, border-color .3s;
+  }
+  .plogo:hover{background:rgba(255,255,255,.07);transform:translateY(-4px);border-color:rgba(95,211,187,.5)}
+  .plogo .role{font-size:.78rem;font-weight:600;letter-spacing:.02em;color:#5fd3bb}
+  .plogo .name{font-size:1.5rem;font-weight:700;color:#fff;margin-top:8px;letter-spacing:-.01em}
+  .plogo .desc{font-size:.9rem;color:#9fb6b3;margin-top:8px}
+  .plogo .visit{margin-top:16px;font-size:.84rem;font-weight:600;color:#5fd3bb;display:inline-flex;align-items:center;gap:.4em;transition:gap .25s}
+  .plogo:hover .visit{gap:.7em}
+
+  /* ---------- NEWS ---------- */
+  .news{background:var(--sand)}
+  .news-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+  .news-more{padding:12px 22px;font-size:.9rem;white-space:nowrap}
+  .news-list{list-style:none;margin-top:44px;border-top:1px solid var(--line)}
+  .news-item a{
+    display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px;
+    padding:22px 6px;border-bottom:1px solid var(--line);transition:padding-left .3s, background .3s;
+  }
+  .news-item a:hover{padding-left:16px;background:rgba(16,169,142,.05)}
+  .news-item .cat{
+    font-size:.78rem;font-weight:700;color:var(--aqua-deep);background:var(--aqua-tint);
+    padding:5px 12px;border-radius:999px;min-width:54px;text-align:center;
+  }
+  .news-item .t{font-size:1.05rem;font-weight:500;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .news-item:hover .t{color:var(--aqua-deep)}
+  .news-item .d{font-family:var(--display);font-size:.92rem;color:var(--muted)}
+  .news-note{margin-top:24px;font-size:.88rem;color:var(--muted)}
+  @media(max-width:560px){
+    .news-item a{grid-template-columns:auto 1fr;gap:12px}
+    .news-item .d{display:none}
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;margin-top:56px}
+  @media(max-width:860px){.contact-grid{grid-template-columns:1fr;gap:36px}}
+  .info-row{display:flex;gap:18px;padding:22px 0;border-top:1px solid var(--line)}
+  .info-row:first-child{border-top:none;padding-top:0}
+  .info-row .k{min-width:96px;font-weight:600;color:var(--ink);font-size:.95rem}
+  .info-row .v{color:var(--ink-soft);font-size:1rem}
+  .info-row .v a{color:var(--aqua-deep);font-weight:600}
+  .map-card{border-radius:20px;overflow:hidden;border:1px solid var(--line);min-height:360px;background:var(--sand);position:relative}
+  .map-card iframe{width:100%;height:100%;min-height:360px;border:0;filter:grayscale(.2) contrast(1.02)}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:#06161f;color:#8ea7a4;padding:64px 0 40px;font-size:.9rem}
+  .foot-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:34px}
+  .foot-brand b{color:#fff;font-size:1.1rem}
+  .foot-brand p{margin-top:10px;max-width:34ch;color:#7d9794}
+  .foot-cols{display:flex;gap:64px;flex-wrap:wrap}
+  .foot-cols h4{color:#cfe0dd;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px}
+  .foot-cols a,.foot-cols div{display:block;color:#8ea7a4;margin-bottom:9px}
+  .foot-cols a:hover{color:#5fd3bb}
+  .foot-bottom{margin-top:28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#5e7572;font-size:.82rem}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="mark"><img src="images/logo.png" alt="(주)동양케미칼테크 OCT 로고" /></span>
+      <span><b>(주)동양케미칼테크</b><span>친환경 화학 솔루션 전문기업</span></span>
+    </a>
+    <div class="nav-links">
+      <nav>
+        <ul>
+          <li><a href="about.html">회사소개</a></li>
+          <li><a href="#products">제품·적용분야</a></li>
+          <li><a href="#partners">대리점</a></li>
+          <li><a href="#news">소식</a></li>
+          <li><a href="#contact">오시는길</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="#contact">문의하기</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="wrap">
+      <span class="eyebrow reveal">Chemical Solutions for Water &amp; Environment</span>
+      <h1 class="reveal" style="transition-delay:.08s">물과 환경을 위한<br><em>친환경 화학 솔루션</em>의 파트너</h1>
+      <p class="lede reveal" style="transition-delay:.16s">
+        (주)동양케미칼테크는 무기·유기 화학약품과 친환경 바이오촉매 솔루션을
+        공급합니다. 수처리부터 해양오염 방제, 토양복원까지,
+        검증된 기술로 산업 현장의 문제를 해결합니다.
+      </p>
+      <div class="hero-actions reveal" style="transition-delay:.24s">
+        <a class="btn btn-primary" href="#products">제품 살펴보기 →</a>
+        <a class="btn btn-ghost" href="#contact">상담 문의</a>
+      </div>
+
+      <div class="hero-stats reveal" style="transition-delay:.32s">
+        <div><div class="n">60<span style="font-size:1.2rem">+년</span></div><div class="l">화학산업과 함께한 전통 (1962~)</div></div>
+        <div><div class="n">친환경</div><div class="l">바이오촉매 기반 솔루션</div></div>
+        <div><div class="n">5<span style="font-size:1.2rem">대</span></div><div class="l">핵심 적용 분야</div></div>
+        <div><div class="n">3<span style="font-size:1.2rem">사</span></div><div class="l">국내 대리점 파트너십</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILDING SHOWCASE -->
+  <section class="building">
+    <div class="wrap">
+      <figure class="frame reveal">
+        <img src="images/building.jpg" alt="(주)동양케미칼테크 본사 전경"
+             onerror="this.style.display='none';this.parentNode.querySelector('.ph').style.display='grid'">
+        <figcaption class="ph" style="display:none">본사 전경 사진을 준비 중입니다.<br><span style="font-size:.82rem">images/building.jpg 파일을 넣어 주세요</span></figcaption>
+        <figcaption class="cap">
+          <b>(주)동양케미칼테크 본사</b>
+          <span>부산광역시 강서구 · 서부산 소재산업단지 201동</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>현장이 신뢰하는<br>화학 솔루션 공급 파트너</h2>
+        <p>대표 최지욱 · 부산 강서구 소재 · 무기·유기 화학약품 전문 수입·판매 기업</p>
+      </div>
+      <div class="about-grid">
+        <div class="body reveal">
+          <p>(주)동양케미칼테크는 다양한 종류의 무기·유기 화학약품을 수입·판매하는 전문 기업입니다.
+          친환경 바이오촉매 기반의 솔루션을 비롯한 검증된 화학 제품을 공급하며,
+          수처리·해양·산업 현장의 까다로운 과제를 보다 안전하고 효율적인 방식으로 해결합니다.</p>
+          <p>오랜 기간 축적한 공급 경험과 신뢰할 수 있는 제조사 네트워크를 바탕으로,
+          고객이 필요로 하는 화학 솔루션을 정확하고 안정적으로 전달하는 것을 가장 중요한 가치로 삼고 있습니다.</p>
+        </div>
+        <div class="panel reveal" style="transition-delay:.1s">
+          <h3>한눈에 보는 회사 정보</h3>
+          <ul>
+            <li><b>전문분야</b><span>무기·유기 화학약품 수입 및 판매</span></li>
+            <li><b>핵심제품</b><span>친환경 바이오촉매 기반 화학 솔루션</span></li>
+            <li><b>적용현장</b><span>수처리 · 해양 · 세정 · 토양 · 농업</span></li>
+            <li><b>소재지</b><span>부산광역시 강서구 유통단지1로58번길 48</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Products &amp; Applications</span>
+        <h2>다섯 가지 핵심 적용 분야</h2>
+        <p>친환경 바이오촉매 기술과 검증된 화학약품으로, 산업 전반의 환경·공정 과제를 해결합니다.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+          <span class="tag">Water Treatment</span>
+          <h3>정수·하폐수 처리</h3>
+          <p>정수장 및 하폐수처리장의 처리 효율을 높이는 약품을 공급합니다.</p>
+        </article>
+        <article class="card reveal" style="transition-delay:.06s">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M3 14c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2"/><path d="M3 19c2 0 2 1.5 4 1.5S9 19 11 19s2 1.5 4 1.5S17 19 21 19"/><path d="M14 4l3 6H11z"/></svg></div>
+          <span class="tag">Marine &amp; Oil Spill</span>
+          <h3>해양오염·기름 분산</h3>
+          <p>해양 선박 및 유류 오염 현장의 기름 분산·정화에 활용됩니다.</p>
+        </article>
+        <article class="card reveal" style="transition-delay:.12s">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M4 13l8-8 7 7-8 8H7l-3-3z"/><path d="M11 6l7 7"/></svg></div>
+          <span class="tag">Surface Cleaning</span>
+          <h3>표면·금속 세정</h3>
+          <p>산업용 표면 및 금속 세정 공정을 위한 전문 세정 솔루션입니다.</p>
+        </article>
+        <article class="card reveal">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 3v6"/><path d="M5 9h14l-2 11H7z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg></div>
+          <span class="tag">Soil Remediation</span>
+          <h3>오염 토양 복원</h3>
+          <p>오염된 토양을 생물학적으로 복원하는 친환경 처리 제품입니다.</p>
+        </article>
+        <article class="card reveal" style="transition-delay:.06s">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><path d="M12 20c0-6 0-10 6-13-1 6-3 9-6 9"/><path d="M12 20c0-5 0-8-5-10 1 5 2 7 5 8"/><path d="M12 20v2"/></svg></div>
+          <span class="tag">Agriculture</span>
+          <h3>농업용 제품</h3>
+          <p>작물 생육과 토양 환경 개선을 돕는 농업용 바이오 제품입니다.</p>
+        </article>
+        <article class="card reveal" style="transition-delay:.12s">
+          <div class="ic"><svg fill="none" stroke-width="1.7" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 7l3 3m4 0l3-3M7 17l3-3m4 0l3 3"/></svg></div>
+          <span class="tag">Industrial Chemicals</span>
+          <h3>무기·유기 화학약품</h3>
+          <p>현장 요구에 맞는 다양한 무기·유기 화학약품을 수입·공급합니다.</p>
+        </article>
+      </div>
+      <div class="reveal" style="margin-top:44px;text-align:center">
+        <a class="btn btn-primary" href="products.html">전체 제품 카탈로그 보기 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="partners" id="partners">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Partners &amp; Distribution</span>
+        <h2>신뢰로 연결된 대리점 네트워크</h2>
+        <p>국내 주요 화학 기업과의 파트너십을 기반으로 안정적인 공급 체계를 갖추고 있습니다.</p>
+      </div>
+      <div class="plogos">
+        <a class="plogo reveal" href="https://www.oci.co.kr/" target="_blank" rel="noopener">
+          <div class="role">공식대리점</div>
+          <div class="name">OCI 주식회사</div>
+          <div class="desc">국내 대표 화학 소재 기업 공식 대리점</div>
+          <div class="visit">사이트 방문 ↗</div>
+        </a>
+        <a class="plogo reveal" href="https://www.foosungchem.com/" target="_blank" rel="noopener" style="transition-delay:.08s">
+          <div class="role">종합대리점</div>
+          <div class="name">(주)후성</div>
+          <div class="desc">정밀화학·특수가스 종합 대리점</div>
+          <div class="visit">사이트 방문 ↗</div>
+        </a>
+        <a class="plogo reveal" href="http://www.sam-myung.com/" target="_blank" rel="noopener" style="transition-delay:.16s">
+          <div class="role">불화물 대리점</div>
+          <div class="name">삼명캐닝(주)</div>
+          <div class="desc">불화물 제품 공급 대리점</div>
+          <div class="visit">사이트 방문 ↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS / NOTICE -->
+  <section class="news" id="news">
+    <div class="wrap">
+      <div class="news-head reveal">
+        <div class="sec-head">
+          <span class="eyebrow">News &amp; Products</span>
+          <h2>최근 제품 소식</h2>
+          <p>회사 블로그에 등록되는 제품·소식이 이곳에 자동으로 표시됩니다.</p>
+        </div>
+        <a class="btn btn-ghost news-more" href="products.html">전체 제품 보기 →</a>
+      </div>
+      <ul class="news-list" id="news-list"></ul>
+      <p class="news-note reveal">🔗 회사 블로그(blog.naver.com/dongyangchemical)와 자동 연동됩니다. 블로그에 새 글을 올리면 이 영역이 자동으로 갱신됩니다.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Contact &amp; Location</span>
+        <h2>문의 및 오시는 길</h2>
+        <p>제품 상담 및 공급 문의는 아래 연락처로 언제든 문의해 주시기 바랍니다.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="info-row"><div class="k">주소</div><div class="v">부산광역시 강서구 유통단지1로58번길 48</div></div>
+          <div class="info-row"><div class="k">전화</div><div class="v"><a href="tel:051-973-5222">051-973-5222</a></div></div>
+          <div class="info-row"><div class="k">팩스</div><div class="v">051-973-7222</div></div>
+          <div class="info-row"><div class="k">이메일</div><div class="v"><a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a></div></div>
+          <div class="info-row"><div class="k">운영시간</div><div class="v">평일 09:00 ~ 17:00 <span style="color:var(--muted)">(토·일·공휴일 휴무)</span></div></div>
+          <div class="info-row"><div class="k">사업자번호</div><div class="v">605-81-29626</div></div>
+        </div>
+        <div class="map-card reveal" style="transition-delay:.1s">
+          <iframe loading="lazy" title="동양케미칼테크 위치"
+            src="https://www.google.com/maps?q=부산광역시 강서구 유통단지1로58번길 48&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <b>(주)동양케미칼테크</b>
+        <p>친환경 화학 솔루션으로 더 깨끗한 산업 환경을 만들어 갑니다.</p>
+      </div>
+      <div class="foot-cols">
+        <div>
+          <h4>바로가기</h4>
+          <a href="about.html">회사소개</a>
+          <a href="products.html">제품</a>
+          <a href="#partners">대리점</a>
+          <a href="#news">소식</a>
+          <a href="#contact">오시는길</a>
+        </div>
+        <div>
+          <h4>연락처</h4>
+          <a href="tel:051-973-5222">051-973-5222</a>
+          <a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a>
+          <div>평일 09:00~17:00</div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 (주)동양케미칼테크. All rights reserved.</div>
+      <div>대표 최지욱 · 사업자등록번호 605-81-29626</div>
+    </div>
+  </div>
+</footer>
+
+<script src="products-data.js"></script>
+<script>
+  // populate latest products into the news list (auto-synced from blog)
+  (function(){
+    const list=document.getElementById('news-list');
+    const data=(window.OCT_PRODUCTS||[]).slice(0,4);
+    if(!list||!data.length)return;
+    const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    list.innerHTML=data.map((p,i)=>`
+      <li class="news-item reveal in" style="transition-delay:${i*.06}s">
+        <a href="${p.link}" target="_blank" rel="noopener">
+          <span class="cat">${esc(p.cat||'제품')}</span>
+          <span class="t">${esc(p.title)}</span>
+          <span class="d">${esc(p.date||'')}</span>
+        </a>
+      </li>`).join('');
+  })();
+
+  // sticky nav state
+  const nav=document.getElementById('nav');
+  const onScroll=()=>nav.classList.toggle('scrolled',window.scrollY>24);
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+
+  // reveal on scroll
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  // hero reveals immediately
+  window.addEventListener('load',()=>{
+    document.querySelectorAll('.hero .reveal').forEach(el=>el.classList.add('in'));
+  });
+</script>
+</body>
+</html>
