@@ -159,9 +159,10 @@
   .panel li b{color:#fff;font-weight:600;min-width:80px;display:inline-block}
 
   /* ---------- PRODUCTS ---------- */
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
-  @media(max-width:860px){.cards{grid-template-columns:1fr 1fr}}
-  @media(max-width:560px){.cards{grid-template-columns:1fr}}
+  .cards{display:flex;flex-wrap:wrap;justify-content:center;gap:22px;margin-top:56px}
+  .cards .card{flex:1 1 280px;max-width:calc((100% - 44px) / 3)}
+  @media(max-width:860px){.cards .card{max-width:calc((100% - 22px) / 2)}}
+  @media(max-width:560px){.cards .card{max-width:100%}}
   .card{
     background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 28px;
     transition:transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .35s;
@@ -402,12 +403,6 @@
           <span class="tag">Agriculture</span>
           <h3>농업용 제품</h3>
           <p>작물 생육과 토양 환경 개선을 돕는 농업용 바이오 제품입니다.</p>
-        </article>
-        <article class="card reveal" style="transition-delay:.12s">
-          <span class="bar"></span>
-          <span class="tag">Industrial Chemicals</span>
-          <h3>무기·유기 화학약품</h3>
-          <p>현장 요구에 맞는 다양한 무기·유기 화학약품을 수입·공급합니다.</p>
         </article>
       </div>
     </div>
