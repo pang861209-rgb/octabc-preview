@@ -82,6 +82,15 @@
   .pcard:hover .plink{gap:.7em}
   .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:60px 0;font-size:1rem}
 
+  .notice{display:flex;gap:20px;align-items:flex-start;background:var(--ink);color:#cfe0dd;border-radius:16px;padding:24px 30px;margin:36px 0 8px;position:relative;overflow:hidden;box-shadow:0 24px 50px -30px rgba(10,34,48,.55)}
+  .notice::after{content:"";position:absolute;right:-50px;top:-60px;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle,var(--aqua),transparent 70%);opacity:.16}
+  .notice-ic{flex:none;width:46px;height:46px;border-radius:12px;background:rgba(95,211,187,.16);display:grid;place-items:center;position:relative}
+  .notice-ic svg{width:24px;height:24px;stroke:#5fd3bb}
+  .notice-body{position:relative}
+  .notice-body h3{font-size:1.12rem;font-weight:700;color:#fff}
+  .notice-body p{margin-top:8px;font-size:.98rem;line-height:1.65;color:#bcd3cf}
+  .notice-body b{color:#5fd3bb;font-weight:700}
+  @media(max-width:560px){.notice{flex-direction:column;gap:14px;padding:22px}}
   .syncnote{margin:0 0 26px;font-size:.78rem;color:var(--muted);line-height:1.5}
   .syncnote b{color:var(--muted);font-weight:600}
 
@@ -130,6 +139,14 @@
 </section>
 
 <div class="wrap">
+  <div class="notice">
+    <div class="notice-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 4.5-3 7.6-8 9-5-1.4-8-4.5-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+    <div class="notice-body">
+      <h3>개인 구매 제한 안내</h3>
+      <p>본 사이트의 화학제품은 「화학물질관리법」 및 관련 법령에 따라 <b>사업자등록을 필한 법인</b> 또는 <b>관련 허가를 받은 개인사업자</b>에게만 판매됩니다.</p>
+    </div>
+  </div>
+
   <div class="toolbar">
     <div class="count">총 <b id="count">0</b>개 제품</div>
     <div class="search">
