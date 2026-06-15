@@ -82,8 +82,8 @@
   .pcard:hover .plink{gap:.7em}
   .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:60px 0;font-size:1rem}
 
-  .syncnote{background:var(--aqua-tint);border:1px solid rgba(16,169,142,.25);border-radius:14px;padding:16px 20px;margin:0 0 30px;font-size:.9rem;color:var(--ink-soft);display:flex;gap:12px;align-items:flex-start}
-  .syncnote b{color:var(--aqua-deep)}
+  .syncnote{margin:0 0 26px;font-size:.78rem;color:var(--muted);line-height:1.5}
+  .syncnote b{color:var(--muted);font-weight:600}
 
   /* footer */
   footer{background:#06161f;color:#8ea7a4;padding:54px 0 36px;font-size:.9rem}
@@ -138,10 +138,7 @@
     </div>
   </div>
 
-  <div class="syncnote">
-    <span>🔗</span>
-    <div><b>블로그 자동 연동.</b> 이 목록은 회사 블로그(blog.naver.com/dongyangchemical)의 제품 글에서 자동으로 생성됩니다. 블로그에 새 제품을 올리면 이 페이지에도 자동으로 추가됩니다. <span style="color:var(--muted)">(현재는 실제 블로그 데이터 스냅샷이며, 배포 시 실시간 동기화로 전환됩니다.)</span></div>
-  </div>
+  <p class="syncnote">이 목록은 회사 블로그(blog.naver.com/dongyangchemical)의 제품 글과 연동되어 표시됩니다.</p>
 
   <div class="grid" id="grid"></div>
 </div>
