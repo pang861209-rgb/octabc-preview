@@ -185,8 +185,10 @@
     background:rgba(255,255,255,.03);transition:background .3s, transform .3s, border-color .3s;
   }
   .plogo:hover{background:rgba(255,255,255,.07);transform:translateY(-4px);border-color:rgba(95,211,187,.5)}
-  .plogo .role{font-size:.78rem;font-weight:600;letter-spacing:.02em;color:#5fd3bb}
-  .plogo .name{font-size:1.5rem;font-weight:700;color:#fff;margin-top:8px;letter-spacing:-.01em}
+  .plogo .logo{background:#fff;border-radius:12px;height:86px;display:flex;align-items:center;justify-content:center;padding:14px 22px;margin-bottom:24px}
+  .plogo .logo img{max-height:48px;max-width:170px;width:auto;object-fit:contain;display:block}
+  .plogo .role{font-size:.78rem;font-weight:700;letter-spacing:.03em;color:#5fd3bb}
+  .plogo .name{font-size:1.4rem;font-weight:700;color:#fff;margin-top:7px;letter-spacing:-.01em}
   .plogo .desc{font-size:.9rem;color:#9fb6b3;margin-top:8px}
   .plogo .visit{margin-top:16px;font-size:.84rem;font-weight:600;color:#5fd3bb;display:inline-flex;align-items:center;gap:.4em;transition:gap .25s}
   .plogo:hover .visit{gap:.7em}
@@ -219,7 +221,7 @@
   @media(max-width:860px){.contact-grid{grid-template-columns:1fr;gap:36px}}
   .info-row{display:flex;gap:18px;padding:22px 0;border-top:1px solid var(--line)}
   .info-row:first-child{border-top:none;padding-top:0}
-  .info-row .k{min-width:96px;font-weight:600;color:var(--ink);font-size:.95rem}
+  .info-row .k{min-width:108px;font-weight:600;color:var(--ink);font-size:.95rem}
   .info-row .v{color:var(--ink-soft);font-size:1rem}
   .info-row .v a{color:var(--aqua-deep);font-weight:600}
   .map-card{border-radius:20px;overflow:hidden;border:1px solid var(--line);min-height:320px;background:var(--sand);position:relative}
@@ -391,21 +393,24 @@
       </div>
       <div class="plogos">
         <a class="plogo reveal" href="https://www.oci.co.kr/" target="_blank" rel="noopener">
-          <div class="role">공식대리점</div>
+          <div class="logo"><img src="images/partner-oci.png" alt="OCI 주식회사 로고" /></div>
+          <div class="role">종합대리점</div>
           <div class="name">OCI 주식회사</div>
-          <div class="desc">국내 대표 화학 소재 기업 공식 대리점</div>
+          <div class="desc">국내 대표 화학·소재 기업</div>
           <div class="visit">사이트 방문 ↗</div>
         </a>
         <a class="plogo reveal" href="https://www.foosungchem.com/" target="_blank" rel="noopener" style="transition-delay:.08s">
-          <div class="role">종합대리점</div>
+          <div class="logo"><img src="images/partner-foosung.png" alt="(주)후성 FOOSUNG 로고" /></div>
+          <div class="role">불화물 대리점</div>
           <div class="name">(주)후성</div>
-          <div class="desc">정밀화학·특수가스 종합 대리점</div>
+          <div class="desc">정밀화학·특수가스 전문 기업</div>
           <div class="visit">사이트 방문 ↗</div>
         </a>
         <a class="plogo reveal" href="http://www.sam-myung.com/" target="_blank" rel="noopener" style="transition-delay:.16s">
-          <div class="role">불화물 대리점</div>
+          <div class="logo"><img src="images/partner-smc.png" alt="삼명캐닝(주) SMC 로고" /></div>
+          <div class="role">표면처리약품 대리점</div>
           <div class="name">삼명캐닝(주)</div>
-          <div class="desc">불화물 제품 공급 대리점</div>
+          <div class="desc">표면처리약품 공급 대리점</div>
           <div class="visit">사이트 방문 ↗</div>
         </a>
       </div>
@@ -442,7 +447,7 @@
           <div class="info-row"><div class="k">전화</div><div class="v"><a href="tel:051-973-5222">051-973-5222</a></div></div>
           <div class="info-row"><div class="k">팩스</div><div class="v">051-973-7222</div></div>
           <div class="info-row"><div class="k">이메일</div><div class="v"><a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a></div></div>
-          <div class="info-row"><div class="k">운영시간</div><div class="v">평일 09:00 ~ 17:00 <span style="color:var(--muted)">(토·일·공휴일 휴무)</span></div></div>
+          <div class="info-row"><div class="k">전화 응대 시간</div><div class="v">평일 08:00 ~ 17:00 <span style="color:var(--muted)">(토·일·공휴일 휴무)</span></div></div>
           <div class="info-row"><div class="k">사업자번호</div><div class="v">605-81-29626</div></div>
         </div>
         <div class="reveal" style="transition-delay:.1s">
@@ -482,7 +487,7 @@
           <h4>연락처</h4>
           <a href="tel:051-973-5222">051-973-5222</a>
           <a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a>
-          <div>평일 09:00~17:00</div>
+          <div>전화 응대 08:00~17:00</div>
         </div>
       </div>
     </div>
