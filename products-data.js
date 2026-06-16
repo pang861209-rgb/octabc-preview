@@ -50,7 +50,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzExMDFfNDkg/MDAxNjk4ODAxOTIxOTkw.LbH8PTac3wfcK8ooXT4W3JvUeB49Xfjb4nWN3iy2rNsg.b0KLPAMLsffVD-1L52vCp-Ogzt8X0D91_7v5JBKGR84g.PNG.oct1998/%B9%AB%BC%F6%B8%DE%C5%B8%B1%D4%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM METASILICATE",
 "cas": "6834-92-0",
-"spec": "25 KG <무수 메타규산소다>",
+"spec": "25 KG",
 "date": "2023.06.07",
 "body": "SODIUM METASILICATE [5수]H 10 Na 2 O 8 Si , [9수]H 18 Na 2 O 12 Si CAS 6834-92-0 1) [5수] 메타규산나트륨(5수화물); 메타규산소다(5수화물) 2) [9수] 메타규산나트륨(9수화물); 메타규산소다(9수화물) 국산, 수입 25 KG <무수 메타규산소다>"
 },
@@ -149,7 +149,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMTgw/MDAxNjg1NTA2OTc1OTg3.fw75nQ2x3Rx5hM6IB_AcaLl5KrKfZ9K3JyR4yAK-c6Yg.wgxePPZ1dMRySqERGtGrOuPoqZ7vVek1Vu_oXxd2Q0sg.PNG.oct1998/%B1%B8%BF%AC%BB%EA.png?type=w2",
 "eng": "CITRIC ACID",
 "cas": "",
-"spec": "25 KG <구연산나트륨, 구연산소다>",
+"spec": "25 KG",
 "date": "2023.05.31",
 "body": "CITRIC ACID C 6 H 8 O 7 1) (무수) 2-HYDROXY-1,2,3-PROPANETRICARBOXYLIC ACID; BETA-HYDROXYTRICARBALLYLIC ACID; ACILETTEN; CITRETTEN; CITRO; HYDROCEROL A; 2-HYDROXYTRICARBALLYLIC ACID; CITRIC ACID ANHYDROUS 2) (함수) 2-HYDROXY-1,2,3,PROPANE-TRICARBOXYLIC ACID, MONOH"
 },
@@ -710,7 +710,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMDdfMjgz/MDAxNjc4MTcwNDM0OTI2.QbKcvrEPKkv2b7LSOE7tg4ezTRsZLEJWufvHA174CCEg.eANZKSa4jl7T_aVLvRCoSLpnhno0_Ezmp58iyZGT4agg.PNG.oct1998/%C0%C0%C1%FD%C1%A6_%C6%F7%C0%E5%C1%F6_%BA%AF%B0%E6.png?type=w2",
 "eng": "POLYMER",
 "cas": "25987-30-8",
-"spec": "A-101 : 10 KG / AN923SH : 15 K",
+"spec": "A-101 : 10 KG / AN923SH : 15 KG",
 "date": "2022.11.01",
 "body": "POLYMER (C 3 H 5 NO.C 3 H 4 O 2 )n.nNa CAS 25987-30-8 SODIUM ACRYLATE ACRYLAMIDE POLYMER; ACRYLAMIDE-SODIUM ACRYLATE RESIN 나트륨2-프로펜산2-프로펜아미드중합체; 나트륨아크릴산염아크릴아미드중합체; 아크릴아미드-나트륨아크릴산수지 A-101 : 10 KG / AN923SH : 15 K"
 },
@@ -754,7 +754,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjdfMzAw/MDAxNjY2ODMyNzkxMjEx._tG8oiXWb6Z6Ah3CuPs7iQ22ih4ArCbGq7_wRLDycegg.CKhIzFQgH4YJ2V3K2ZOjiUqVvHDI5TzeIfcnSFi8Fdcg.JPEG.oct1998/%BF%B0%C8%AD%C4%AE%BD%B7%28%C1%DF%29.jpg?type=w2",
 "eng": "CACIUM CHLORIDE",
 "cas": "10043-52-4",
-"spec": "25 KG **염화칼슘이란? 염화칼슘은 이온성 무기",
+"spec": "25 KG",
 "date": "2022.10.27",
 "body": "CACIUM CHLORIDE CaCl 2 CAS 10043-52-4 CALCOSAN; CALCIUM DICHLORIDE; URAMINE MC; CALCIUM CHLORIDE ANHYDRATE 염화칼슘; 클로로칼슘; 염화석회; 칼코산; 우르아민MC; 칼슘이염화물 중국 25 KG **염화칼슘이란? 염화칼슘은 이온성 무기"
 },
@@ -776,7 +776,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjZfMjM5/MDAxNjY2NzYyODk5NTU0.FaWLqiSDnQvao_-34yzzb_pMcexQR1MKDFd0FJm_mMcg.OBOFYa2hKzLC5cKhMVTW4o3emE3KlOUqVhU4DlxEwr8g.PNG.oct1998/%BA%F9%C3%CA%BB%EA_%BD%C4%C3%B7.png?type=w2",
 "eng": "ACETIC ACID",
 "cas": "64-19-7",
-"spec": "공업용 20KG/ BULK, 식품첨가물 20KG *",
+"spec": "공업용 20KG / BULK, 식품첨가물 20KG",
 "date": "2022.10.26",
 "body": "ACETIC ACID C 2 H 4 O 2 CAS 64-19-7 ETHYLIC ACID; VINEGAR ACID; GLACIAL ACETIC ACID; VINEGAR; METHANECARBOXYLIC ACID; ACETATE; TCLP EXTRACTION FLUID 2; SHOTGUN 아세트산; 초산; 빙초산; 글라시알아세트산; 에탄오익산; 비네갈산; 에틸산; 피롤리그너스산; 메탄카르복실산 공업용 20KG/ BULK, 식품첨가물 20KG *"
 },
