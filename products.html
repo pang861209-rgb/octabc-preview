@@ -291,7 +291,10 @@
   function apply(){
     const t=q.value.trim().toLowerCase();
     let list = t ? DATA.filter(p=>(p.title+' '+p.eng+' '+p.cas+' '+(p.body||'')).toLowerCase().includes(t)) : DATA.slice();
-    if(sortSel && sortSel.value==='name') list.sort((a,b)=>(a.title||'').localeCompare(b.title||'','ko'));
+    if(sortSel && sortSel.value==='name'){
+      const key=s=>(s||'').replace(/^[\[(][^\])]*[\])]\s*/,'').replace(/^[^0-9A-Za-z가-힣]+/,'').trim();
+      list.sort((a,b)=>key(a.title).localeCompare(key(b.title),'ko'));
+    }
     render(list);
   }
   q.addEventListener('input',apply);
