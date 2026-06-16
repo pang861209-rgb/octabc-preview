@@ -177,7 +177,7 @@
     <div class="count">총 <b id="count">0</b>개 제품</div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-      <input id="q" type="text" placeholder="제품명·영문명 검색 (예: 개미산, STPP)" autocomplete="off" />
+      <input id="q" type="text" placeholder="제품명·영문명·CAS·성분 검색 (예: 송진, STPP, 8050)" autocomplete="off" />
     </div>
   </div>
 
@@ -279,7 +279,7 @@
   function filter(){
     const t=q.value.trim().toLowerCase();
     if(!t){render(DATA);return;}
-    render(DATA.filter(p=>(p.title+' '+p.eng+' '+p.cas).toLowerCase().includes(t)));
+    render(DATA.filter(p=>(p.title+' '+p.eng+' '+p.cas+' '+(p.body||'')).toLowerCase().includes(t)));
   }
   q.addEventListener('input',filter);
   render(DATA);
