@@ -70,6 +70,28 @@
   .sort{font-family:var(--sans);font-size:.92rem;font-weight:600;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 36px 10px 16px;cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235d6f78' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;transition:border-color .25s}
   .sort:hover{border-color:var(--aqua)}
   .sort:focus{outline:none;border-color:var(--aqua);box-shadow:0 0 0 4px rgba(16,169,142,.12)}
+  .viewtoggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
+  .viewtoggle button{border:none;background:none;cursor:pointer;padding:9px 13px;color:var(--muted);display:grid;place-items:center;transition:background .2s,color .2s}
+  .viewtoggle button.active{background:var(--ink);color:#fff}
+  .viewtoggle svg{width:18px;height:18px;display:block}
+
+  /* list view */
+  .grid.list-view{display:block;padding-bottom:90px}
+  .lhead,.lrow{display:grid;grid-template-columns:1.5fr 1.4fr 0.9fr 0.8fr;gap:18px;align-items:center}
+  .lhead{padding:0 16px 12px;font-size:.76rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;border-bottom:2px solid var(--ink)}
+  .lrow{padding:15px 16px;border-bottom:1px solid var(--line);transition:background .2s,padding-left .2s}
+  .lrow:hover{background:rgba(16,169,142,.06);padding-left:24px}
+  .lname{font-weight:700;color:var(--ink);font-size:1rem}
+  .leng{color:var(--ink-soft);font-size:.92rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .lcas,.lspec{color:var(--muted);font-size:.9rem}
+  @media(max-width:680px){
+    .lhead{display:none}
+    .lrow{grid-template-columns:1fr;gap:4px;padding:16px 14px}
+    .lrow:hover{padding-left:14px}
+    .leng,.lcas,.lspec{font-size:.86rem;white-space:normal}
+    .lcas::before{content:'CAS ';color:var(--ink-soft);font-weight:600}
+    .lspec::before{content:'규격 ';color:var(--ink-soft);font-weight:600}
+  }
   .search{position:relative;flex:1;min-width:260px;max-width:560px}
   .search input{
     width:100%;padding:15px 20px 15px 48px;border:1px solid var(--line);border-radius:999px;
@@ -185,6 +207,14 @@
         <option value="recent">최신 등록순</option>
         <option value="name">이름순 (가나다·ABC)</option>
       </select>
+      <div class="viewtoggle" role="group" aria-label="보기 방식">
+        <button type="button" data-view="grid" class="active" aria-label="그리드 보기" title="그리드 보기">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </button>
+        <button type="button" data-view="list" aria-label="리스트 보기" title="리스트 보기">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        </button>
+      </div>
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
@@ -266,9 +296,20 @@
   const q=document.getElementById('q');
   const DATA=(window.OCT_PRODUCTS||[]);
 
+  let viewMode='grid';
   function render(list){
     countEl.textContent=list.length;
     if(!list.length){grid.innerHTML='<div class="empty">검색 결과가 없습니다.</div>';return;}
+    if(viewMode==='list'){
+      grid.innerHTML='<div class="lhead"><span>제품명</span><span>영문명</span><span>CAS No.</span><span>규격</span></div>'+
+        list.map(p=>`<a class="lrow" href="${p.link}" target="_blank" rel="noopener">
+          <span class="lname">${esc(p.title)}</span>
+          <span class="leng">${esc(p.eng||'-')}</span>
+          <span class="lcas">${esc(p.cas||'-')}</span>
+          <span class="lspec">${esc(p.spec||'-')}</span>
+        </a>`).join('');
+      return;
+    }
     grid.innerHTML=list.map(p=>{
       const thumb=p.thumb
         ? `<img referrerpolicy="no-referrer" loading="lazy" alt="${esc(p.title)}" src="${p.thumb}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="ph" style="display:none">No Image</div>`
@@ -299,6 +340,12 @@
   }
   q.addEventListener('input',apply);
   if(sortSel) sortSel.addEventListener('change',apply);
+  document.querySelectorAll('.viewtoggle button').forEach(b=>b.addEventListener('click',()=>{
+    viewMode=b.dataset.view;
+    document.querySelectorAll('.viewtoggle button').forEach(x=>x.classList.toggle('active',x===b));
+    grid.classList.toggle('list-view',viewMode==='list');
+    apply();
+  }));
   apply();
 </script>
 </body>

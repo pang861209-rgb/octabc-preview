@@ -6,6 +6,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA5MjBfMjI3/MDAxNjk1MTY4MjU5OTAy.6fHaXAXc1HggJJ8dJw61IG_HSNOQQRmvc_ZJhH4tVTog.7H-4Icu2FtpXh6JAv2y6CjI6tToVL6Pnt-0dO0N2a3Mg.PNG.oct1998/%B0%CB%B7%CE%C1%F8%28%BC%DB%C1%F8%29.png?type=w2",
 "eng": "Gum rosin; Rosin",
 "cas": "8050-09-7",
+"spec": "25 KG",
 "date": "2023.09.20",
 "body": "Gum rosin; Rosin CAS 8050-09-7 검로진, 로진, 송진 베트남 25 KG"
 },
@@ -16,6 +17,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA4MjhfOTcg/MDAxNjkzMTgyNTEyNTQ4.yfof_BUoPXnjbtNGxpihCKI1UZoFl_8HnK3icCGAc0cg.MIXyg0Pz4rEuTcbkIKJxoC8FloO9U9sTL1psXjv2ozQg.PNG.oct1998/%C6%C4%B6%F3%C7%C9.png?type=w2",
 "eng": "PARAFFIN",
 "cas": "8002-74-2",
+"spec": "28 KG",
 "date": "2023.08.28",
 "body": "PARAFFIN CnH( 2 n+ 2 ) CAS 8002-74-2 PARAFFIN WAX, POLY(METHYLENE)WAX, PARAFFIN WAXES 파라핀 왁스, 파라핀 일본 28 KG"
 },
@@ -26,6 +28,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA4MTdfODYg/MDAxNjkyMjI4OTg0NTIy.DGFrd8PgitLevExFUcSuXKQqHLCs98Wl5nTJF-gqT70g.BYinFqdD36maCsxKJBSqRElPqbMEWCFCbeGQ8DZn4rYg.PNG.oct1998/dmea.png?type=w2",
 "eng": "N,N-Dimethylamino-2-ethanol (2-Dimethylaminoethanol; 2-(Dimethylamino)ethanol; N,N-Dimethyl-2-hydroxyethylamine; N,N- Dimethylethanolamine; Dimethylethanolamine; Deanol; Norcholine)",
 "cas": "108-01-0",
+"spec": "180 KG",
 "date": "2023.08.17",
 "body": "N,N-Dimethylamino-2-ethanol (2-Dimethylaminoethanol; 2-(Dimethylamino)ethanol; N,N-Dimethyl-2-hydroxyethylamine; N,N- Dimethylethanolamine; Dimethylethanolamine; Deanol; Norcholine) HOCH 2 CH 2 N(CH 3 ) 2 CAS 108-01-0 N,N-DIMETHYL-2-HYDROXYETHYLAMINE; 2-DIME"
 },
@@ -36,6 +39,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDdfODgg/MDAxNjg2MDk4MDgwNjE5.oLgUJPnq4sKO9QaDQJ0BzjX_D6olR1hdW9SyvdpxdfMg.VZgK-GvKdR1ZmLv4NDcCxxrwM4ChybD2IHkfWYsXt_Mg.PNG.oct1998/DL%BB%E7%B0%FA%BB%EA.png?type=w2",
 "eng": "MALIC ACID",
 "cas": "6915-15-7",
+"spec": "25 KG",
 "date": "2023.06.07",
 "body": "MALIC ACID C 4 H 6 O 5 CAS 6915-15-7 DEOXYTETRARIC ACID; 2-HYDROXYBUTANEDIOIC ACID; POMALUS ACID; HYROXYBUTANEDIOIC ACID 말산; 데옥시테트라산; 2-하이드록시숙신산; 사과산; 포말산 일본 25 KG"
 },
@@ -46,6 +50,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzExMDFfNDkg/MDAxNjk4ODAxOTIxOTkw.LbH8PTac3wfcK8ooXT4W3JvUeB49Xfjb4nWN3iy2rNsg.b0KLPAMLsffVD-1L52vCp-Ogzt8X0D91_7v5JBKGR84g.PNG.oct1998/%B9%AB%BC%F6%B8%DE%C5%B8%B1%D4%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM METASILICATE",
 "cas": "6834-92-0",
+"spec": "25 KG <무수 메타규산소다>",
 "date": "2023.06.07",
 "body": "SODIUM METASILICATE [5수]H 10 Na 2 O 8 Si , [9수]H 18 Na 2 O 12 Si CAS 6834-92-0 1) [5수] 메타규산나트륨(5수화물); 메타규산소다(5수화물) 2) [9수] 메타규산나트륨(9수화물); 메타규산소다(9수화물) 국산, 수입 25 KG <무수 메타규산소다>"
 },
@@ -56,6 +61,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDdfMjE1/MDAxNjg2MDk3NTgzNTA5.7E7R0LdYZnvXqBh8VwXgUM5Z8qqnvh2knnnImwySKKog.OpafZDW-WanPTw8b0E3JXDovzIFRg72kNG-lzbfEBAIg.PNG.oct1998/TCE.png?type=w2",
 "eng": "TRICHLORO ETYLENE",
 "cas": "79-01-6",
+"spec": "27 KG, 270 KG",
 "date": "2023.06.07",
 "body": "TRICHLORO ETYLENE C 2 HCl 3 CAS 79-01-6 ACETYLENE TRICHLORIDE; ALGYLEN; 1-CHLORO-2,2-DICHLOROETHYLENE; 1,1-DICHLORO-2-CHLOROETHYLENE; ANAMENTH; TRICHLOROETHENE; 1,1,2-TRICHLOROETHYLENE; BLACO-TRI (BARON-BLAKESLEE); T.C.E 트리클로로에틸렌; 1,1,2-트리클로로에텐; 아세틸렌트리클로라이드; 에"
 },
@@ -66,6 +72,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDdfMTYz/MDAxNjg2MDk3MzEwNTk5.NBAvQPnc3hZKbTSQJ9mkivy2gQ9MWZPWKie8C2ygvUcg.xxxU-gKa0Qkgf4oz-Lv-2Oy_W7XHatCyMAO5bPtlEREg.PNG.oct1998/STPP.png?type=w2",
 "eng": "SODIUM TRIPOLYPHOSPHATE",
 "cas": "7758-29-4",
+"spec": "25 KG",
 "date": "2023.06.07",
 "body": "SODIUM TRIPOLYPHOSPHATE Na 5 P 3 O 10 CAS 7758-29-4 SODIUM TRIPHOSPHATE; TRIPHOSPHORIC ACID, PENTASODIUM SALT; SODIUM PHOSPHATE TRIPOLY; STPP; PENTASODIUM TRIPHOSPHATE; PENTASODIUM TRIPOLYPHOSPHATE 트리폴리인산나트륨; 나트륨트리폴리인산염; 나트륨인산염; 펜타나트륨트리폴리인산염; 트리폴리인산소다 중국 25 KG"
 },
@@ -76,6 +83,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDdfNzUg/MDAxNjg2MDk3MDMyMzQy.g_KC8T-8yTUhVvI1IGAMkn8lotnLXIESnbV0amI7Hokg.Tv0UWL3P4-esj5c577qIla58OVOGzabZEMSSD59aNaog.PNG.oct1998/%B0%B3%B9%CC%BB%EA.png?type=w2",
 "eng": "FORMIC ACID",
 "cas": "64-18-6",
+"spec": "25 KG",
 "date": "2023.06.07",
 "body": "FORMIC ACID CH 2 O 2 CAS 64-18-6 HYDROGENCARBOXYLIC ACID; AMINIC ACID; FORMYLIC ACID; METHANOIC ACID 개미산; 메타노산; 포르밀릭산; 수소카르복시산; 암닉산; 의산 중국 25 KG"
 },
@@ -86,6 +94,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDFfMjMx/MDAxNjg1NTgxOTMzMTAz.QxksAMoM1lputTx-C4rZ_9GjNVkOViDxs0IThISdC9wg.-jKiNb4ZiO0P8cjfhZTyNSAvJcKtIduOTVbwfpLUqncg.PNG.oct1998/%BE%C6%C3%CA%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM NITIRITE",
 "cas": "7632-00-0",
+"spec": "25 KG",
 "date": "2023.06.01",
 "body": "SODIUM NITIRITE NaNO 2 CAS 7632-00-0 NITROUS ACID, SODIUM SALT; ANTI-RUST; FILMERINE; DIAZOTING SALTS; ERINITRIT 아질산나트륨; 아질산소다; 아초산소다; 알칼리메탈니트레이트; 아초산나트륨 중국 25 KG"
 },
@@ -96,6 +105,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDFfMjc1/MDAxNjg1NTgwOTcxMzI3.t6cdhoMPNdBuiJyteZiigGzpta4MrCG3eSNcwpLBUh8g.n0RDiAeAXf_vSsFV5JM5ZPZRaj3WUbPk-b40nTFTMPEg.PNG.oct1998/%BA%D8%BB%EA.png?type=w2",
 "eng": "BORIC ACID",
 "cas": "10043-35-3",
+"spec": "25 KG",
 "date": "2023.06.01",
 "body": "BORIC ACID H 3 BO 3 CAS 10043-35-3 BORACIC ACID; ORTHOBORIC ACID; BOROFAX; BORON TRIHYDROXIDE; HYDROGEN ORTHOBORATE; ORTHOBORIC ACID; TRIHYDROXYBORANE 붕산; 정붕산; 붕트리산화물; 오르토붕산; 트리하이드록시보란 미국 25 KG"
 },
@@ -106,6 +116,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDFfMzIg/MDAxNjg1NTgwMDEwMTg1.HqHUgxO4bZkzq2mTbqTz5e6eRPuCwo-9CPuHOVK41oYg.04QqZAn7A0ZvzoZkFZTmZQ8TJoO0moz8lYPSwKubW60g.PNG.oct1998/%BB%EA%BC%BA%BA%D2%C8%AD%BE%CF%B8%F0%B4%BD.png?type=w2",
 "eng": "AMMONIUM BIFLUORIDE",
 "cas": "1341-49-7",
+"spec": "25 KG",
 "date": "2023.06.01",
 "body": "AMMONIUM BIFLUORIDE NH 4 F.HF CAS 1341-49-7 AMMONIUM HYDROGEN FLUORIDE; ACID AMMONIUM FLUORIDE; AMMONIUM ACID FLUORIDE; AMMONIUM FLUORIDE, ACIDIC; AMMONIUM HYDROGENDIFLUORIDE; AMMONIUM BIFLUORIDE 산성불화암모늄; 중불화암모늄; 불화수소암모늄; 불화암몬; 플루오르화수소암모늄 25 KG"
 },
@@ -116,6 +127,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA2MDFfMTMx/MDAxNjg1NTc5NzcyMTQ5.1adwf6WX14a1rpspjRCN-l_macvGiXjXIlZ6jlkMoSYg.0nVpQ_Nib2Yjl273oOV2hhFBTFIUKzqACIpvPnc2WYQg.PNG.oct1998/%C1%A61%C0%CE%BB%EA%BE%CF%B8%F0%B4%BD.png?type=w2",
 "eng": "AMMONIUM PHOSPHATE MONOBASIC",
 "cas": "7722-76-1",
+"spec": "25 KG",
 "date": "2023.06.01",
 "body": "AMMONIUM PHOSPHATE MONOBASIC NH 4 H 2 PO 4 CAS 7722-76-1 AMMONIUM BIPHOSPHATE; AMMONIUM DIHYDROGEN PHOSPHATE; AMMONIUM PHOSPHATE; ADP; PHOSPHORIC ACID, MONOAMMONIUM SALT; MONOAMMONIUM PHOSPHATE 제일인산암모늄; 암모늄인산염; 암모늄이수소오르토인산염; 암모늄디하이드로인산염; 암모늄일염기인산염 25 KG"
 },
@@ -126,6 +138,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMjkz/MDAxNjg1NTA3MzYxMjc0.tExWFWQ1ruf4g_3suqEiZGdjRKazNi_O7b-0m25ZBYsg.ybpkR8MVq_niWVQB-yu7LYG57Iwi03iklpyiC4LzHQkg.PNG.oct1998/%C1%FA%BB%EA%BE%CF%B8%F0%B4%BD.png?type=w2",
 "eng": "AMMONIUM NITRATE",
 "cas": "6484-52-2",
+"spec": "25 KG",
 "date": "2023.05.31",
 "body": "AMMONIUM NITRATE NH 4 NO 3 CAS 6484-52-2 AMMONIUM(I)NITRATE; NITRIC ACID, AMMONIUM SALT; VARIOFORM 질산암모늄; 암모늄질산; 니트람; 암모니아질산; 질산암모늄염 25 KG"
 },
@@ -136,6 +149,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMTgw/MDAxNjg1NTA2OTc1OTg3.fw75nQ2x3Rx5hM6IB_AcaLl5KrKfZ9K3JyR4yAK-c6Yg.wgxePPZ1dMRySqERGtGrOuPoqZ7vVek1Vu_oXxd2Q0sg.PNG.oct1998/%B1%B8%BF%AC%BB%EA.png?type=w2",
 "eng": "CITRIC ACID",
 "cas": "",
+"spec": "25 KG <구연산나트륨, 구연산소다>",
 "date": "2023.05.31",
 "body": "CITRIC ACID C 6 H 8 O 7 1) (무수) 2-HYDROXY-1,2,3-PROPANETRICARBOXYLIC ACID; BETA-HYDROXYTRICARBALLYLIC ACID; ACILETTEN; CITRETTEN; CITRO; HYDROCEROL A; 2-HYDROXYTRICARBALLYLIC ACID; CITRIC ACID ANHYDROUS 2) (함수) 2-HYDROXY-1,2,3,PROPANE-TRICARBOXYLIC ACID, MONOH"
 },
@@ -146,6 +160,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMjI4/MDAxNjg1NTA2MDM5MzM4.mFjtc1TOrOzQWPAufL_lFW9g10vhoK8qtiFaMufBH5Ug.x4PnbIEcbP7KWp12TbajbLwGeR_nMUzU4pTrkZI67pkg.JPEG.oct1998/%C8%B2%BB%EA%B5%BF.jpg?type=w2",
 "eng": "COPPER SULFATE PENTAHYDRATE",
 "cas": "7758-99-8",
+"spec": "20 KG",
 "date": "2023.05.31",
 "body": "COPPER SULFATE PENTAHYDRATE CuH 10 O 9 S CAS 7758-99-8 COPPER(II) SULFATE PENTAHYDRATE; BLUE VITRIOL; BLUE COPPER; BLUE STONE; COPPER SULFATE PENTAHYDRATE; COPPER SULPHATE PENTAHYDRATE 황산구리(5수화물); 황산동(5수화물) 20 KG"
 },
@@ -156,6 +171,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMjc1/MDAxNjg1NTA1NjQ5ODIw.l2SGew3K_wNiTP4b3l6wFkXgRG-jNooZy0VI3KtTiqQg.aOqs2CUHyho-YlJVwhxh1aWr4lT-lW8cYlar-bka7IMg.PNG.oct1998/HMDA.png?type=w2",
 "eng": "Hexanediamine",
 "cas": "124-09-4",
+"spec": "181.5 KG",
 "date": "2023.05.31",
 "body": "Hexanediamine C 6 H 16 N 2 CAS 124-09-4 1,6-DIAMINOHEXANE; HEXAMETHYLENE DIAMINE; 1,6-HEXAMETHYLENEDIAMINE; 1,6-DIAMINO-N-HEXANE; 1,6-HEXYLENEDIAMINE; HMDA 헥사메틸렌디아민; 1,6-헥산디아민; 1,6-디아미노헥산; 헥실렌디아민; 헥사메틸렌디아민 181.5 KG"
 },
@@ -166,6 +182,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMTMg/MDAxNjg1NDkyMzYwMzA4.C6zUlIezsa-O2x1q2aMljCCbTJtnUCpbgV01g9NewSYg.mnldc3yhvd9Kf5W31so43HnDmDkSr3Rlv5vv35kUrFog.PNG.oct1998/%B1%DB%B8%AE%BF%C1%BB%EC.png?type=w2",
 "eng": "GLYOXAL",
 "cas": "107-22-2",
+"spec": "260 KG",
 "date": "2023.05.31",
 "body": "GLYOXAL C 2 H 2 O 2 CAS 107-22-2 ETHANE-1,2-DIONE; OXALALDEHYDE; ETHANEDIAL; BIFORMAL; BIFORMYL; ETHANDIAL; 1,2-ETHANEDIONE; GLYOXYLALDEHYDE; OXAL; AEROTEX GLYOXAL 40; ODIX 글리옥살; 글리옥살알데히드; 옥살알데히드; 1,2-에탄디온; 에탄디온; 비포르말; 디포르밀; 옥살; 퍼마프레쉬114 260 KG"
 },
@@ -176,6 +193,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMjMx/MDAxNjg1NDkxOTkwOTU0.Liro-iFsWe7fC8thRUFKCkUCRbABKIMa5gk6i0xCrfog.GT6NVkA8Wr8XfI-tCD0h_lFGbaLf2UapI8k_vGjoBAQg.PNG.oct1998/DMP.png?type=w2",
 "eng": "DIMETHYL PHTHALATE",
 "cas": "131-11-3",
+"spec": "230 KG",
 "date": "2023.05.31",
 "body": "DIMETHYL PHTHALATE C 10 H 10 O 4 CAS 131-11-3 1,2-DIMETHYL PHTHALATE; DMP; DIMETHYL-1,2-BENZENEDICARBOXYLATE; METHYLPHTHALATE; 1,2-BENZENEDICARBOXYLIC ACID DIMETHYL ESTER; PHTHALIC ACID DIMETHYL ESTER; FERMINE; AVOLIN; MIPAX 디메틸프탈레이트; 1,2-벤젠디카르복시산,디메틸에스테르; 디메틸"
 },
@@ -186,6 +204,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMTk4/MDAxNjg0OTgwNTgyMTQw.7wHAl2tXcM38ioDR29LIkLaNJPGXAwknIadjeXEcMLcg.3L3wBMOTmgnB96DtPoJjzf3n2yOzWyFDJ6PbC7HGEDUg.PNG.oct1998/%C4%A1%BE%C6%C8%B2%BB%EA%B3%AA%C6%AE%B7%FD.png?type=w2",
 "eng": "SODIUM HYDROSUFITE",
 "cas": "7775-14-6",
+"spec": "50 KG",
 "date": "2023.05.25",
 "body": "SODIUM HYDROSUFITE Na 2 S 2 O 4 CAS 7775-14-6 SODIUM HYDROSULFITE; SODIUM SULFOXYLATE; SULFOXYLATE; VIRTEX L; REDUCTONE; HYDROLIN; D-OX; VATROLITE; HYDROSULFITE; DITHIONOUS ACID, DISODIUM SALT; SODIUM DITHIONITE HYDRATE; HYDRO 하이드로설파이트; 하이드로아황산나트륨; 차아황산나트륨; 나트"
 },
@@ -196,6 +215,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMTYw/MDAxNjg0OTgwMjAwNTcy.ndWrskWnYr2BjQswNsx5gxMTyj6C8uOJ6CwvGtv4488g.y0sG0PCBrwuuqoiQLL6fJw3QDvcCUpfPaNPV87R2l8cg.PNG.oct1998/%BC%F6%BB%EA2.png?type=w2",
 "eng": "OXALIC ACID",
 "cas": "6153-56-6",
+"spec": "25 KG",
 "date": "2023.05.25",
 "body": "OXALIC ACID (COOH) 2 .2H 2 O CAS 6153-56-6 ETHANEDIOIC ACID DIHYDRATE; ETHANDIONIC ACID DIHYDRATE; ETHANEDIONIC ACID DIHYDRATE; OXALIC ACID DIHYDRATE 옥살산(2수화물); 에탄디오익산(2수화물); 수산(2수화물) 중국/ 국산 25 KG"
 },
@@ -206,6 +226,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMjE1/MDAxNjg0OTc5ODEyMTYw.bMg7fPnhIXHGGPB7-KC_W-F5xWW5rhSOMkx34ns6cGog.-zSNABg1XJTo4wj85qSuRxV2vkTKvPUK6mIdVsDPHJ0g.PNG.oct1998/%B0%E6%C8%B8%28%BD%C4%C3%B7%29.png?type=w2",
 "eng": "SODIUM CARBONATE",
 "cas": "497-19-8",
+"spec": "25 KG, 750 KG BAG",
 "date": "2023.05.25",
 "body": "SODIUM CARBONATE CNa 2 O 3 CAS 497-19-8 SODA ASH; DISODIUM CARBONATE; SODA; CALCINED SODA; ASH; CARBONIC ACID DISODIUM SALT; SODIUM CARBONATE ANHYDROUS; SODA ASH LIGHT 탄산나트륨; 무수탄산소다; 탄산소다; 탄산이나트륨염; 소다회; 탄산나트륨 무수물; 경회; 중회 중국 (OCI OEM) 25 KG, 750 KG BAG"
 },
@@ -216,6 +237,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMTY0/MDAxNjg0OTc5NDc4ODAy.XZ1Jsrjgazw5s0RLnOZ_z4Pohh1KmJZbjeePPi4wXqsg.-f_RPbBBs8Wjp43J5nm0euhcNzSH04mfcDMvWXrweQ4g.PNG.oct1998/%BF%B0%C8%AD%BE%CF%B8%F0%B4%BD.png?type=w2",
 "eng": "AMMONIUM CHLORIDE",
 "cas": "12125-02-9",
+"spec": "25 KG",
 "date": "2023.05.25",
 "body": "AMMONIUM CHLORIDE ClH4N CAS 12125-02-9 SAL AMMONIAC; AMMONIUM MURIATE; AMCHLOR; DARAMMON; SALAMMONITE; AMMONIUM CHLORIDE FUME; AMMONIUM CHLORIDE 염화암모늄; 암클로르; 암모네릭; 암모늄뮤리에이트; 다르암몬; 살암모니아; 살미악 중국 25 KG"
 },
@@ -226,6 +248,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMjkx/MDAxNjg0OTc4NjY1NjQ3.paN0FCIeFEWWcZYXj1Q0AxvsakmOrIYodKmmlaj-CDUg.M1RHT8MefOzeMFDiDEx6tdexObmaAE6dEffkY2mZDp4g.PNG.oct1998/%B0%FA%C5%BA%BB%EA%BC%D2%B4%D9%28%C4%DA%C6%C3%29.png?type=w2",
 "eng": "Sodium Carbonate Peroxyhydrate (Sodium Percarbonate)",
 "cas": "15630-89-4",
+"spec": "25 KG",
 "date": "2023.05.25",
 "body": "Sodium Carbonate Peroxyhydrate (Sodium Percarbonate) C 2 H 6 Na 4 O 12 CAS 15630-89-4 CARBONIC ACID DISODIUM SALT, COMPD. WITH HYDROGEN PEROXIDE (H2O2) (2:3); DISODIUM CARBONATE,HYDROGEN PEROXIDE (2:3); PC; SODIUM CARBONATE PEROXYHYDRATE; SPC 과탄산나트륨; 과탄산소다; 나트"
 },
@@ -236,6 +259,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfODYg/MDAxNjg0OTc3OTEyMTEx.Aq_QlnNRnSoRV0u-slDOKB50LxLxqpkKHTSdZ24fEtog.07z7HMj9V9Rz8HrtyW2OE_4r26nHjpfTHYLT0NK6HD0g.PNG.oct1998/%C1%DF%C5%A9%B7%D2%BB%EA%B3%AA%C6%AE%B7%FD_%C1%DF%C5%A9%B7%D2%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM DICHROMATE",
 "cas": "7789-12-0",
+"spec": "25 KG",
 "date": "2023.05.25",
 "body": "SODIUM DICHROMATE Cr 2 Na 2 O 7 CAS 7789-12-0 DISODIUM DICHROMATE DIHYDRATE; SODIUM BICHROMATE 나트륨디크롬산(2수화물); 디나트륨디크롬산(2수화물); 중크롬산나트륨(2수화물); 중크롬산소다(2수화물) 미국 25 KG"
 },
@@ -246,6 +270,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjVfMjYw/MDAxNjg0OTc0MDU1Nzgw.vwSxbcER0iMNfq4a61OCQF7iq1y-nlXbW8YCHr-namsg.OR_2_1JigwefLoy1a1ZAKeNGPCZwWwym9lWIqb56jakg.PNG.oct1998/%B8%F4%B8%AE%BA%EA%B5%A7%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM MOLYBDATE",
 "cas": "10102-40-6",
+"spec": "25 KG",
 "date": "2023.05.25",
 "body": "SODIUM MOLYBDATE Na 2 MoO 4 .2H 2 O CAS 10102-40-6 MOLYBDIC ACID, DISODIUM SALT DIHYDRATE; DISODIUM MOLYBDATE DIHYDRATE; SODIUM MOLYBDATE(VI) DIHYDRATE 몰리브덴산나트륨(2수화물); 몰리브덴산소다(2수화물) 중국 25 KG"
 },
@@ -256,6 +281,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MjNfMjQ1/MDAxNjg0ODAxNDMzMDk2.z_mmlJgAX2w_Os1LZBvpj8yBKxUxo1YSisSX-WfPxYYg.fDWvGDYJmJ7cqSI_mHlqDp5rZwhfoFAWPF5ukJ7DDdwg.PNG.oct1998/%B0%FA%BF%B0%BC%D2%BB%EA.png?type=w2",
 "eng": "PERCHLORIC ACID",
 "cas": "7601-90-3",
+"spec": "300 KG",
 "date": "2023.05.23",
 "body": "PERCHLORIC ACID HClO 4 CAS 7601-90-3 DIOXONIUM PERCHLORATE; PERCHLORIC ACID SOLUTION 과염소산; 디옥소늄과염소산; 과염소산용액 인도 300 KG"
 },
@@ -266,6 +292,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MTBfNzIg/MDAxNjgzNjgzMjIxNjY3.mCELk_fBzLcTYdLfaYvVMjGwOW1kn19jACCJNUy-5JIg.95ja4uYRTtVeOShJbEMwDL3wuOBcMsb0nkryZb4FjZAg.PNG.oct1998/%C1%A6%B8%F1_%BE%F8%C0%BD-1.png?type=w2",
 "eng": "",
 "cas": "",
+"spec": "20 KG",
 "date": "2023.05.10",
 "body": "국산 20 KG"
 },
@@ -276,6 +303,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA0MThfMTIw/MDAxNjgxNzgwODg5NzY0.rG2O4HR25cS_RCwR86RcuHIr8z6-4TWjTmkK0CLsGg0g.paeXcSjaLG9kdL9VPfW9aaTuga43SC8S5B5DKjKKmnYg.PNG.oct1998/%C7%CF%C0%CC%C6%F7_5%BC%F6.png?type=w2",
 "eng": "SODIUM THIOSULFATE",
 "cas": "10102-17-7",
+"spec": "25 KG",
 "date": "2023.04.18",
 "body": "SODIUM THIOSULFATE Na 2 S 2 O 3 .5H 2 O CAS 10102-17-7 SODIUM HYPOSULFITE PENTAHYDRATE; ANTICHLOR; HYPO; AMETOX; SULFOTHIORINE 티오황산나트륨(5수화물); 나트륨티오황산염(5수화물); 아메톡스; 안티클로르; 하이포; 술포티오린 중국 25 KG"
 },
@@ -286,6 +314,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA0MThfNyAg/MDAxNjgxNzc5OTUzMTQ2.wNarkrdbtkSgFUn1eBrXUdhzXvdGyCu20_HXC6AOLH4g.R0s5Bt0Wd7ciLDXk0pPlilzHFlaeAJtDGkGbV0a77q0g.PNG.oct1998/%BF%B0%C8%AD%B3%AA%C6%AE%B7%FD_%BD%C3%BE%E0.png?type=w2",
 "eng": "SODIUM CHLORIDE",
 "cas": "7647-14-5",
+"spec": "1 KG",
 "date": "2023.04.18",
 "body": "SODIUM CHLORIDE NaCl CAS 7647-14-5 TABLE SALT; SALINE SOLUTION; STAT TRAK PLUS; COMMON SALT; SEA SALT; ROCK SALT; HALITE; SALINE; DENDRITIS; EXTRA FINE 200 SALT; EXTRA FINE 325 SALT; STERLING; TOP FLAKE 염화나트륨; 암염; 해염; 소금; 공업염; 할리트; 바위염; 바다소금; 식탁용소금; 정제염 1 KG"
 },
@@ -296,6 +325,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMDZfNSAg/MDAxNjc4MDYyMjgxMjM4.WMqNZDUCxVJAsOMfwAaIe9KNLs0mEjr-6fB7ve99zFsg.eZ52Mqa3paImjhjaHUcKErzWIoJE-SJgFl1D-L-M_jAg.PNG.oct1998/PPG4000.png?type=w2",
 "eng": "PPG4000",
 "cas": "25322-69-4",
+"spec": "1000 KG",
 "date": "2023.03.06",
 "body": "PPG4000 (C 3 H 8 O 2 )n CAS 25322-69-4 PROPYLENE OXIDE, PROPYLENE GLYCOL POLYMER; POLY(PROPYLENE GLYCOL) 1000; POLY(PROPYLENE GLYCOL) 3000; POLY(PROPYLENE GLYCOL) 400; POLY(PROPYLENE GLYCOL) 2000; POLYPROPYLENE GLYCOL 400; POLYPROPYLENE GLYCOL 700; POLYPROPY"
 },
@@ -306,6 +336,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMDJfNDYg/MDAxNjc3NzMyMDkxMDUx.E_Vl2WOBmUjT6LRhEYZISjxYgZ-wPdv51EWz0yiBMFkg.ovUuQv65KvQv0_xMlVvOWSYfI99dR1GfkkUPd-tEKBUg.PNG.oct1998/BDG.png?type=w2",
 "eng": "BUTYL CARBITOL",
 "cas": "112-34-5",
+"spec": "950 KG",
 "date": "2023.03.02",
 "body": "BUTYL CARBITOL C 8 H 18 O 3 CAS 112-34-5 BUTOXYDIGLYCOL; 2-(2-BUTOXYETHOXY)ETHANOL; DIETHYLENE GLYCOL MONOBUTYL ETHER; DIETHYLENE GLYCOL BUTYL ETHER; 2-(2-N-BUTOXYETHOXY)ETHANOL; N-BUTYL CARBITOL; 3,6-DIOXADECANOL; BUTYL DIGLYCOL; BC; DBG; BUTYL DIGLYCOL ETH"
 },
@@ -316,6 +347,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMDJfMTgy/MDAxNjc3NzE3MjgxNjI1.O8j8efunvU0wyMO90UJi_uXKGwSAyQGSkAxowDATImsg.HYqfL7nmfyOGZRr7ccguG16wlELZgSAxUDJunurLV5Ug.PNG.oct1998/%C2%F7%C0%CE%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM HYPOPHOSPHITE",
 "cas": "10039-56-2",
+"spec": "25KG, 500KG",
 "date": "2023.03.02",
 "body": "SODIUM HYPOPHOSPHITE NaH 2 PO 2 .H 2 O CAS 10039-56-2 SODIUM HYPOPHOSPHITE 차인산소다 중국 25KG, 500KG"
 },
@@ -326,6 +358,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAyMjhfMTUy/MDAxNjc3NTYzODEyMzg2.W9GFlSZeRt5C266Jh8hc2DMgnsbdTBq1cH79zs900l0g.BqHRJd0AvltTa4xBziLCuq0XE4BEXcpxW0k6f2ewYXwg.PNG.oct1998/%BF%EC%B6%F3%B4%D1.png?type=w2",
 "eng": "URANINE",
 "cas": "518-47-8",
+"spec": "500 G",
 "date": "2023.02.28",
 "body": "URANINE C 20 H 10 Na 2 O 5 CAS 518-47-8 DISODIUM 6-HYDROXY-3-OXO-9-XANTHENE-O-BENZOATE; URANINE; FLUORESCEIN, SODIUM DERIVATIVE, SODIUM SALT; C.I.45350; ACID YELLOW 73 우라닌; 스피로(이소벤조푸란-1(3H),9'-(9H)크산텐)-3-온,3',6'-디하이드록시디나트륨염; 3',6'-디하이드록시-스피로(이소벤조푸란-1(3H),9'-(9"
 },
@@ -336,6 +369,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMzFfMjk5/MDAxNjc1MTM3MjI3MDYw.EtktWpEJzjgpaJKDC1PRaAwvUxFB-ewiAZRMgxt2deMg.mFT8BqoeGCj0KrEW-1-wg1r7vDVhZp_xZRy7QpBAulog.PNG.oct1998/%C8%B2%BB%EA%BD%C3%BE%E0.png?type=w2",
 "eng": "SULFURIC ACID ( Dihydrogen sulphate; Oil of vitriol)",
 "cas": "7664-93-9",
+"spec": "1KG,7 KG, 250 KG",
 "date": "2023.01.31",
 "body": "SULFURIC ACID ( Dihydrogen sulphate; Oil of vitriol) H 2 SO 4 CAS 7664-93-9 황산 ( 황산이나트륨; 황산염) 1KG,7 KG, 250 KG"
 },
@@ -346,6 +380,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMjZfMjc0/MDAxNjc0NzEwMzIxOTU5.wITjZ8nUZomASZ02gyebNsUIwYZYGL8lq1BDMjhFixog.TYfbeDjbypBqHGxnnHnZM0F3x_QWAo8y6prJFQIu3pMg.JPEG.oct1998/%C0%CE%BB%EA%BF%B0%C7%C7%B8%B7%C1%A6.jpg?type=w2",
 "eng": "",
 "cas": "",
+"spec": "25 KG",
 "date": "2023.01.26",
 "body": "국산 25 KG"
 },
@@ -356,6 +391,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMjVfNTYg/MDAxNjc0NjA5MDkxNDM0.GGQHPBwfBmZN660BjpK2m7hyHK8wqy2urbW-OI0zxl8g.QonGxxyobYxokZNL0VUVtfdAKgiS6zmly7hxqbChDmMg.JPEG.oct1998/%C4%AB%BA%B8%C7%CF%C0%CC%B5%E5%B6%F3%C0%DA%C0%CC%B5%E5.jpg?type=w2",
 "eng": "CARBOHYDRAZIDE",
 "cas": "497-18-7",
+"spec": "25 KG",
 "date": "2023.01.25",
 "body": "CARBOHYDRAZIDE CH6N4O CAS 497-18-7 1,3-DIAMINOUREA; CARBONIC DIHYDRAZIDE; CARBAZIDE; CARBZAIC ACID HYDRAZIDE; CHD 카르보히드라지드; 카본디히드라지드; 카르브아지드; 탄산,디히드라지드; 1,3-디아미노요소; 카바지드 중국 25 KG"
 },
@@ -366,6 +402,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMjVfMTk0/MDAxNjc0NjA1NTgwNTk2.cFIkgVg6wRvN6CGLd2-gnvBRkqmkB8TN8uc15LAUFpsg.MOCaneq_Gopp7ePU7UsTHmLENid0x9geHStzKeSCVKwg.PNG.oct1998/%B6%F3%BD%BA100.png?type=w2",
 "eng": "LAS-100",
 "cas": "85536-14-7",
+"spec": "210 KG",
 "date": "2023.01.25",
 "body": "LAS-100 C19H32O3S CAS 85536-14-7 BENZENESULFONIC ACID, LAS-100 벤젠설폰산, 라스100 210 KG"
 },
@@ -376,6 +413,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTlfMTIz/MDAxNjc0MDkwNzE1NjUy.QNW70x-5arTSPrUiCWLun1rd8sUIkUOX8MqGvjcKD8Qg.4RkR_voS7CoUcCRe0Ga4IfdPLQ0KDOJlWceRnyjE4Uog.PNG.oct1998/%B4%D9%C0%CC%BF%A1%BD%C3%B5%E5.png?type=w2",
 "eng": "DIACID",
 "cas": "53980-88-4",
+"spec": "202 KG",
 "date": "2023.01.19",
 "body": "DIACID C 21 H 36 O 4 CAS 53980-88-4 미국 202 KG"
 },
@@ -386,6 +424,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTdfMTMg/MDAxNjczOTE4NzU0NTQx.xd2zcHBI5wFlG7ylBBIABODom0gHbUejeZGcryjaOdog.ekT1a65EkM-UCpBwylJX-w_cW9Fuw6mwcdYYxaqMNiYg.PNG.oct1998/TOFA.png?type=w2",
 "eng": "TALL OIL FATTY ACID",
 "cas": "61790-12-3",
+"spec": "190.5 KG",
 "date": "2023.01.17",
 "body": "TALL OIL FATTY ACID C 19 H 32 O 4 CAS 61790-12-3 FATTY ACIDS, TALL OIL; ACINTOL FA 1; ACINTOL FA 2; TALL OIL ACIDS; TOFA 톨유지방산; 톨유산; 지방산,톨유; 아신톨FA1; 아신톨FA2 미국 190.5 KG"
 },
@@ -396,6 +435,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTdfMTk2/MDAxNjczOTE0NjI2MTA3.tJjVIURUTCXbxw2ROTcfQl4l5XIlgLXEkGX0bkPurAMg.uAsLGV2Fdx2jdzO9WcqGVlOCuncJbaQoJl22DfMeVDwg.PNG.oct1998/%B0%FA%BC%F6%2C_%B0%FA%BB%EA%C8%AD%BC%F6%BC%D2.png?type=w2",
 "eng": "HYDROGEN PEROXIDE",
 "cas": "7722-84-1",
+"spec": "20 KG, 1000KG, BULK",
 "date": "2023.01.17",
 "body": "HYDROGEN PEROXIDE H 2 O 2 CAS 7722-84-1 HYDROGEN DIOXIDE; ALBONE; INHIBINE; PERHYDROL; PEROXAN; OXYDOL; HYDROPEROXIDE; HIOXY; DIHYDROGEN DIOXIDE; T-STUFF; SUPEROXOL 과산화수소; 과수; 수소이산화물; 퍼옥산; 퍼히드롤; 알본; 수퍼옥살 20 KG, 1000KG, BULK"
 },
@@ -406,6 +446,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTJfNjkg/MDAxNjczNTAwNjQ4MTY4.d_jqihaZrHQ0b1pvxcyTsn2qAQ1CW9gxTgtU6ctRN5Yg.YEoDl6P2cW9xqNtmPeNqdfL1aB_OWD-uyG7a4U8Qh2cg.JPEG.oct1998/APS.jpg?type=w2",
 "eng": "AMMONIUM PERSULFATE",
 "cas": "7727-54-0",
+"spec": "25 KG",
 "date": "2023.01.12",
 "body": "AMMONIUM PERSULFATE (NH 4 ) 2 S 2 O 8 CAS 7727-54-0 AMMONIUM PEROXYDISULFATE; AMMONIUM PEROXODISULFATE; PEROXYDISULFURIC ACID, DIAMMONIUM SALT; DIAMMONIUM PEROXODISULFATE 과황산암모늄; 이암모늄과옥시이황산염; 이암모늄과황산염; 과류산암모늄 중국 25 KG"
 },
@@ -416,6 +457,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTJfMjcg/MDAxNjczNDg4MzAxMjE3.dIjSIRmji2KFZIh6BB_rncVmJp66yuJUjWB9Q_Pu5JMg.sNBJixc_1yu_jPewin_MhsRz57y5SBKNDwqffLJVZZYg.PNG.oct1998/2-%B8%D3%C4%B0%C5%E4%BF%A1%C5%BA%BF%C3.png?type=w2",
 "eng": "2-Mercaptoethanol",
 "cas": "60-24-2",
+"spec": "210 KG",
 "date": "2023.01.12",
 "body": "2-Mercaptoethanol C 2 H 6 OS CAS 60-24-2 HYDROXYETHYL MERCAPTAN; 2-HYROXY-1-ETHANETHIOL; THIOGLYCOL; BETA-MERCAPTOETHANOL; THIOMONOGLYCOL; 2-MERCAPTOETHANOL 2-메르캅토에탄올; 메르캅토에탄올; 2-하이드록시에틸메르캅탄; 베타-하이드록시에틸메르캅탄; 2-티오에탄올; 2-메르캅토에틸알코올 210 KG"
 },
@@ -426,6 +468,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMDVfMTEw/MDAxNjcyODg0NzgyNTE1.yU4yh7A35iq-Y66k9z64_HHBNWr0E2elADvx4JLUdjIg.LeJL83CBDmeW22Ks6FZgE8M0KHp8IxjnAeYPeP5YKpAg.PNG.oct1998/%BF%A1%C4%A5%BE%CB%C4%DD.png?type=w2",
 "eng": "Ethanol",
 "cas": "64-17-5",
+"spec": "18 L",
 "date": "2023.01.05",
 "body": "Ethanol C 2 H 5 OH CAS 64-17-5 ETHANOL; ANHYDROL; ALCOHOL; METHYLCARBINOL; DENATURED ALCOHOL; ETHYL HYDRATE; ETHYL HYDROXIDE; JAYSOL S; MOLASSES ALCOHOL; POTATO ALCOHOL; SPIRIT; SPIRITS OF WINE; TECSOL; ETHANOL 200 PROOF; ETOH 에틸알코올; 에탄올; 알코올; 알코올무수물; 알그래인;"
 },
@@ -436,6 +479,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMTNfMjg3/MDAxNjc4NjY5MTMxNjEy.tZQiTrg89EVLYDUdT_RYABmhAy8HgoXQKngz7DFU-Ysg.5TAlMwsoopvjQjyhudu9iTs-lRhWqjmqOKR9la3cCiYg.PNG.oct1998/peg4000.png?type=w2",
 "eng": "PEG 4000F, 6000F",
 "cas": "25322-68-3",
+"spec": "20 KG",
 "date": "2022.12.26",
 "body": "PEG 4000F, 6000F H(OCH 2 CH 2 )nOH CAS 25322-68-3 PEG; POLYOXYETHYLENE; POLYGLYCOL; POLYETHYLENE OXIDE; ALPHA-HYDRO-OMEGA-HYDROXYPOLY(OXY-1,2-ETHANEDIYL); POLYETHYLENE GLYCOL; POLYETHYLENE GLYCOL 200; POLYETHYLENE GLYCOL 300; POLYETHYLENE GLYCOL 400; POLYETH"
 },
@@ -446,6 +490,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEyMTRfMjQz/MDAxNjcwOTc2NDk1MzMw.c3uQV0StJs6TfYFr8N3ON2nyoTJpC0OJLy6eLdKPvrAg.8BKgoxTiZG0vDfqMLG1-NmWvycL3jFxptxjWUtq3ebwg.JPEG.oct1998/%BF%A1%B8%A3%BC%D2%BA%F2%BB%EA.jpg?type=w2",
 "eng": "ERYTHORBIC ACID",
 "cas": "89-65-6",
+"spec": "25 KG",
 "date": "2022.12.14",
 "body": "ERYTHORBIC ACID C6H8O6 CAS 89-65-6 D-ERYTHRO-HEX-2-ENONIC ACID, GAMMA-LACTONE; ERYTHORBIC ACID; ERYCORBIN; GLUCOSACCHARONIC ACID; ARABOASCORBIC ACID; NEO-CEBICURE; D-ERYTHRO-HEX-2-ENONIC ACID GAMMA-LACTONE; ISOASCORBIC ACID 엘리소르빈산; D-이소아스코르브산; D-에리토르-아스코르브산;"
 },
@@ -456,6 +501,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEyMTNfMjUw/MDAxNjcwODk1ODkwMjU2.JyacAzHdtPL84T5SaLiuLkhzUfeb91ELeZihQ8CyZEgg.EmyYP5lyMTUhr5zB4aOt-l2JIcMdA5W-UUCEzHel18cg.JPEG.oct1998/%BE%C6%BF%B0%BC%D2%BB%EA%BC%D2%B4%D9.jpg?type=w2",
 "eng": "SODIUM CHORITE",
 "cas": "7758-19-2",
+"spec": "25 KG",
 "date": "2022.12.13",
 "body": "SODIUM CHORITE NaClO 2 CAS 7758-19-2 CHLOROUS ACID, SODIUM SALT 아염소산나트륨; 아염산,나트륨염; 아염소산소다 25 KG"
 },
@@ -466,6 +512,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEyMDhfMzAg/MDAxNjcwNDc2NTU3MjY4.TGKZvAqQwc45cusy3ia8fjKQVIakTwteZj2I_wYmd_Ag.HOO0hCYarMVDxczrFx2iNEtwAPQI1_rpP5uf4pU3YCog.PNG.oct1998/HEMA.png?type=w2",
 "eng": "HYDROXYETHYL METHACRYLATE",
 "cas": "868-77-9",
+"spec": "200 KG",
 "date": "2022.12.08",
 "body": "HYDROXYETHYL METHACRYLATE C 6 H 10 O 3 CAS 868-77-9 GLYCOL METHACRYLATE; BETA-HYDROXYETHYL METHACRYLATE; MHOROMER; HEME-A; 2-METHYL-2-PROPENOIC ACID, 2-HYDROXYETHYL ESTER; GMA; ETHYLENE GLYCOL METHACRYLATE; 2-HEMA 하이드록시에틸메타크릴레이트; 글리콜메타크릴레이트; 2-하이드록시에틸메타크릴레이트"
 },
@@ -476,6 +523,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEyMDdfMTQ3/MDAxNjcwMzg1NDkyNTIz.wWbkw3rN9y3s903i_1s5teRFgIt-SAtTNS0Silda0SQg.mxl8V6D-gg1OOsyB5gOdcJ2kri3gtImjVu2RF7dUd08g.PNG.oct1998/%BA%D8%BB%E7%28%B5%A5%C4%AB%BA%B8%B6%F4%BD%BA%29.png?type=w2",
 "eng": "BORAX DECHAHYDRATE",
 "cas": "1303-96-4",
+"spec": "25 KG",
 "date": "2022.12.07",
 "body": "BORAX DECHAHYDRATE 10H 2 O CAS 1303-96-4 BORAX; BORATES,TETRASODIUM SALTS DECAHYDRATE; SODIUM DIBORATE DECAHYDRATE; TETRABORATE DECAHYDRADE; DISODIUM TETRABORATE DECAHYDRATE; SODIUM BORATE DECAHYDRATE; FUSED BORAX; BORAX GLASS; SODIUM TETRABORATE; BORSAURES NA"
 },
@@ -486,6 +534,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEyMDZfMjgx/MDAxNjcwMjg5ODUzNjI2.fTurq5YutgNg72jBEDhlL78f0sbXOWf-t5-Uc5b9Kh8g.Bi73GxreF4TDHLyyHJPiBfoX3Ay8wuQH2a3-1V2sgcIg.PNG.oct1998/PMA.png?type=w2",
 "eng": "HPMA(HOMO POLY MALEIC ACID)",
 "cas": "26099-09-2",
+"spec": "250 KG",
 "date": "2022.12.06",
 "body": "HPMA(HOMO POLY MALEIC ACID) (C4H4O4)n CAS 26099-09-2 (Z)-2-BUTENEDIOIC ACID HOMOPOLYMER; MALEIC ACID HOMOPOLYMER; HYDROLYZED POLYMALEIC ANHYDRIDE; HPMA (Z)-2-부텐디오산호모중합체; 말레산중합체; 말레산호모중합체 중국 250 KG"
 },
@@ -496,6 +545,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMjlfMjEg/MDAxNjY5NjgyMjEwNjA4.i5psVOERaFTVg3QwNUe_qc0LOrlnOyNVCDikCbNEEXkg.6I7q-gca5uQxH9xawaucqvYQQg2e6061zsfXTA0qudQg.PNG.oct1998/DEHA.png?type=w2",
 "eng": "DEHA(N-Diethyl hydroxyamine)",
 "cas": "3710-84-7",
+"spec": "98%- 860 KG / 85%- 850 KG",
 "date": "2022.11.29",
 "body": "DEHA(N-Diethyl hydroxyamine) C 4 H 11 NO CAS 3710-84-7 N,N-DIETHYLHYDROXYLAMINE; DIETHYLHYDROXYLAMINE; N-HYDROXYDIETHYLAMINE; DEHA; N-ETHYL-N-HYDROXYETHANAMINE N-에틸-N-하이드록시에탄아민; N,N-디에틸하이드록실아민; 디에틸하이드록실아민; N-하이드록시디에틸아민 인도 98%- 860 KG / 85%- 850 KG"
 },
@@ -506,6 +556,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMjRfMTg2/MDAxNjY5MjUxMTgxOTAy.XlniNyQzFxdGY4svo8sisUowVx0b8JHFU2DGknTXch4g.B9ThTtDxJieenarOFmUyodFOuoyFRjksTjIeNSxBcrsg.PNG.oct1998/BHT.png?type=w2",
 "eng": "Butylated hydroxytoluene",
 "cas": "128-37-0",
+"spec": "25 KG",
 "date": "2022.11.24",
 "body": "Butylated hydroxytoluene C 15 H 24 O CAS 128-37-0 2,6-DI-TERT-BUTYL-1-HYDROXY-4-METHYLBENZENE; 2,6-DI-TERT-BUTYL-4-METHYLPHENOL; 3,5-DI-TERT-BUTYL-4-HYDROXYTOLUENE; 4-HYDROXY-3,5-DI-TERT-BUTYLTOLUENE; BHT; DI-N-BUTYL HYDROXYTOLUENE; B.H.T 2,6-디-TERT-부틸-P-크레솔"
 },
@@ -516,6 +567,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMjNfMTk5/MDAxNjY5MTYyNjU0NTg1.EgGR0-JdzR8kZeuvuSjRNE43EKFiRDVA5UdEoydOTnMg.-CWkducWlidq8_oAbhrMxlxpp1xND_BIWz6sDHiEae0g.PNG.oct1998/%C1%FA%BB%EA%B3%AA%C6%AE%B7%FD.png?type=w2",
 "eng": "SODIUM NITRATE",
 "cas": "7631-99-4",
+"spec": "25 KG",
 "date": "2022.11.23",
 "body": "SODIUM NITRATE NaNO 3 CAS 7631-99-4 SODA NITER; CUBIC NITER; CHILE SALTPETER; SODIUM(I) NITRATE 질산나트륨; 질산소다; 나트륨니트레이트; 나트륨칠레초석; 소다칠레초석; 입방칠레초석; 니트라틴; 칠레초석 독일(BASF) 25 KG"
 },
@@ -526,6 +578,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMTdfMjkx/MDAxNjY4NjU3NTQ2OTc2.1bQyNlIlUgFc3my8d1temPT20CberJ09tXe3t_f7r0gg.EU8J3EoD1KkF4yElxvE_ikfDePpWb69CCj8jH0h_BTAg.PNG.oct1998/%C8%B2%BB%EA%BD%C3%BE%E0%28%C0%CF%BA%BB%29.png?type=w2",
 "eng": "SULFURIC ACID",
 "cas": "7664-93-9",
+"spec": "1 KG, 30 KG",
 "date": "2022.11.17",
 "body": "SULFURIC ACID H 2 SO 4 CAS 7664-93-9 OIL OF VITRIOL; BOU; DIPPING ACID; VITRIOL BROWN OIL; SULFURIC; ACID MIST; HYDROGEN SULFATE; SULFUR ACID 황산; 유산; 비트리올의기름; 침액산; 비트리올브라운기름; 노르드하드센산; 디황산; 매팅산; 디티온산 국산/ 일본 1 KG, 30 KG"
 },
@@ -536,6 +589,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMTZfNTUg/MDAxNjY4NTc4Mjg3MzE5.AwnqPoeomw_OZ2IRnUlkZZpeI1dz-FRksxY6AS5_Gpgg.80pFWJ3viRUJrlWrYeCkODSMM8aZS2uNKrivkmtPkBQg.PNG.oct1998/HPMC%28%C1%DF%B1%B9%29.png?type=w2",
 "eng": "HYDROXYPROPYL METHYL CELLULOSE",
 "cas": "9004-65-3",
+"spec": "22.5 KG",
 "date": "2022.11.16",
 "body": "HYDROXYPROPYL METHYL CELLULOSE CAS 9004-65-3 METHOCEL K4M; GONIOSOL; ISOPRO ALKALINE; ISOPTO PLAIN; ISOPTO TEARS; HPMC; HYPROMELLOSE; TEARISOL; ULTRA TEARS 하이드록시프로필메틸셀루로오스; 메토셀K4M; 고니오솔; 이소프로알카린; 이솝토; 이소토; 메토셀E,F,K; 히프로멜로즈; 테아리솔; 울트라테아스; 히드록시프로필메틸셀룰로오스 중국 22.5"
 },
@@ -546,6 +600,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMTZfNTcg/MDAxNjY4NTYyMDczNDkz.WP5OImokFYeiA_w9JqytNnyrZOjJ999k-p68tMp3kW8g.wKKFuizmo1zM_k0xLil2XjtsmFivDRA4SWG-7V3KZhAg.PNG.oct1998/%C5%BA%BB%EA%BC%F6%BC%D2%B3%AA%C6%AE%B7%FD%28%C1%DF%C1%B6_-_%B0%F8%BE%F7%29.png?type=w2",
 "eng": "SODIUM BICARBONATE",
 "cas": "144-55-8",
+"spec": "25 KG",
 "date": "2022.11.16",
 "body": "SODIUM BICARBONATE NaHCO 3 CAS 144-55-8 BAKING SODA; SODIUM ACID CARBONATE; SODIUM HYDROGEN CARBONATE; BICARBONATE OF SODA; CARBONIC ACID MONOSODIUM SALT; MONOSODIUM CARBONATE; MEYLON; NEUT; SODA MINT; SODIUM HYDROCARBONATE; SOLUDAL 중탄산나트륨; 중탄산소다; 탄산수소나트륨; 산"
 },
@@ -556,6 +611,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA4MjJfMjI4/MDAxNjkyNjc0ODEzNzMz.0sEvH_M_hVoVMIOcxVAiiyhAli6Jd75Kfpahb0D9jaMg.xDx1difiXukI7MSWcnHh_9-toTgMGuG1ykNy_82jtBUg.PNG.oct1998/%C1%FA%BB%EA%B5%BF_%C6%F7%B4%EB.png?type=w2",
 "eng": "CUPRIC NITRATE TRIHYDRATE",
 "cas": "10031-43-3",
+"spec": "25 KG",
 "date": "2022.11.15",
 "body": "CUPRIC NITRATE TRIHYDRATE CuH 6 N 2 O 9 CAS 10031-43-3 COPPER(II) NITRATE TRIHYDRATE; COPPER DINITRATE TRIHYDRATE; GERHARDITE 구리질산(3수화물); 구리디질산(3수화물); 게르하디트; 질산구리(3수화물); 질산동(3수화물) 네덜란드 25 KG"
 },
@@ -566,6 +622,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMTRfMjM3/MDAxNjY4Mzg3NTc4NTQ2.YFdLCWPx3qgEOe2vqS_I0Js_7g7TatYTb-Nea_pfK4cg.C07xTp8HFOKYzH3SrbnA-IsoRmZTPRlUExrrAOJdQqog.PNG.oct1998/%C1%A62%C0%CE%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "DIBASIC SODIUM PHOSPHATE",
 "cas": "10039-32-4",
+"spec": "25 KG",
 "date": "2022.11.14",
 "body": "DIBASIC SODIUM PHOSPHATE Na 2 HPO 4 CAS 10039-32-4 DISODIUM PHOSPHATE DODECAHYDRATE; DISODIUM HYDROGEN PHOSPHATE DODECAHYDRATE; DIBASIC SODIUM PHOSPHATE DODECAHYDRATE; DSP; DISODIUM HYDROGENPHOSPHATE 12-WATER 인산수소이나트륨(12수화물); 이나트륨수소인산염(12수화물); 이나트륨오르토인산염; 제2"
 },
@@ -576,6 +633,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMTBfMjE1/MDAxNjY4MDUyMDQ4MDI2.oiFbN0XBt9e0GEv-9_dxxJTqpHNfHLAoTIod5xaC3uMg.QFuPLDa3CB0LAc8zQb-zBkWGaZxAzGJvEu1c-RDA9R0g.PNG.oct1998/%C0%CE%BB%EA.png?type=w2",
 "eng": "PHOSPHORIC ACID",
 "cas": "7664-38-2",
+"spec": "30 KG (공업용/식품첨가물)",
 "date": "2022.11.10",
 "body": "PHOSPHORIC ACID H 3 PO 4 CAS 7664-38-2 WHITE PHOSPHORIC ACID; ORTHOPHOSPHORIC ACID; SONAC 인산; 정인산; 오르토인산; 소나크 30 KG (공업용/식품첨가물)"
 },
@@ -586,6 +644,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDdfMjgw/MDAxNjY3Nzg0MzQ0Mjg0.WrW_IixPU07-zYWpf9NbFMRhwL0QW7uzJJwF5mWTOrQg.CL-W8iMeHMbwKMvcgpU-8MdO7z_dy-Qm6zVjrtniU_Qg.PNG.oct1998/%C8%B2%BB%EA%BE%CF%B8%F0%B4%BD2.png?type=w2",
 "eng": "AMMONIUM SULFATE",
 "cas": "7783-20-2",
+"spec": "25 KG",
 "date": "2022.11.07",
 "body": "AMMONIUM SULFATE (NH 4 ) 2 SO 4 CAS 7783-20-2 DIAMMONIUM SULFATE; SULFURIC ACID, DIAMMONIUM SALT; AMMONIUM SULFATE (2:1); SULFATE, AMMONIUM 황산암모늄; 유안; 중성마스카그니트; 디암모늄술펌산염 25 KG"
 },
@@ -596,6 +655,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDdfNDgg/MDAxNjY3NzgwNTAwMjAz.Q2tYXrjBbQi-M-fVFWBod84d84pnN_8dgP7-M7WaUM4g.A3X1XhjGJONX9Go4vepIsoLsEshbHVzKKofMje9uBmIg.PNG.oct1998/%B8%DE%C5%B8%C1%DF%BE%C6%C8%B2%BB%EA%B3%AA%C6%AE%B7%FD.png?type=w2",
 "eng": "SODIUM METABISUPHITE",
 "cas": "7681-57-4",
+"spec": "25 KG",
 "date": "2022.11.07",
 "body": "SODIUM METABISUPHITE Na2O5S2 CAS 7681-57-4 SODIUM PYROSULFITE; DISODIUM SALT PYROSULFUROUS ACID; SODIUM DISULFITE; DISODIUM DISULFITE 메타중아황산나트륨; 메타중아황산소다; 나트륨피로설파이트; 메타중아류산나트륨; 피로아류산나트륨; 피로아황산나트륨 중국 25 KG"
 },
@@ -606,6 +666,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDNfMTkz/MDAxNjY3NDM3NTQ3MjQy.GDhiw9Orx84o1CyO4MEt6cmSntNjdNO7ozMIKoRVH3kg.OBTlI8L8gnGHHsP5_8LeVtVvdSWc_27slkZjqdp7Icgg.PNG.oct1998/%B7%D5%B0%A1%B8%AE%C6%AE.png?type=w2",
 "eng": "SODIUM FORMALDEHYDE (RONGALIT)",
 "cas": "149-44-0",
+"spec": "50 KG",
 "date": "2022.11.03",
 "body": "SODIUM FORMALDEHYDE (RONGALIT) CH 3 NaO 3 S CAS 149-44-0 FORMALDEHYDE SODIUM SULFOXYLATE; HYDROXYMETHANESULFINIC ACID, MONOSODIUM SALT; ALDANIL; SODIUM FORMALDEHYDE SULFOXYLATE; RONGALITE-C; SODIUM BISULFOXYLATE FORMALDEHYDE 롱가리트; 롱가리트C; 나트륨포름알데히드술폭실산염; 하이드록시메"
 },
@@ -616,6 +677,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDJfMjc3/MDAxNjY3MzY2NTg0MTA2.O6czwKUW_8A3XVicVs2heLy1vL1ihEfc-ruCS9gBVzYg.y16e4Iodr9mupjA5HMTtWF-KkfbAbZlZYLtrv6QxxDAg.PNG.oct1998/%BF%E4%BC%D2.png?type=w2",
 "eng": "UREA",
 "cas": "57-13-6",
+"spec": "20 KG",
 "date": "2022.11.02",
 "body": "UREA CH 4 N 2 O CAS 57-13-6 CARBAMIDE; CARBONYL DIAMIDE; CARBAMIMIDIC ACID; ISOUREA; CARBONYLDIAMINE; AQUADRATE; UREAPHIL; UREOPHIL; AQUACARE/HP; NUTRIPLUS; URECARE; UREDERM 요소; 우레아; 카르브아미드; 카르보닐디아미드; 우레아필; 우레아페아를; 우레오필; 카르브아미미드산 20 KG"
 },
@@ -626,6 +688,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDJfMjM4/MDAxNjY3MzUyMTE5NjAw.bNjlUI_Ki2nAv2VgWVCCW5xGP6Y63rGzTjgJzZy0unIg.X9oZFLQUtHVCmF9fVAG8au-npcmnVQTYMp937zhRi0cg.PNG.oct1998/%BB%E8%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM ACETATE TRIHYDRATE",
 "cas": "6131-90-4",
+"spec": "25 KG",
 "date": "2022.11.02",
 "body": "SODIUM ACETATE TRIHYDRATE CH 3 COONa.3H 2 O CAS 6131-90-4 삭산소다;아세트산,나트륨염(3수화물);아세트산나트륨(3수화물);초산나트륨;초산나트륨(3수화물);초산소다 나트륨아세트산 트리수화물 일본 25 KG"
 },
@@ -636,6 +699,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDFfNCAg/MDAxNjY3MjgxODYzNzkz.uVzjr1v9Log-03L4VocOwbCs83QSDO3EorLQaLcIet8g.cqltloHzaSUuD7N39UCRi52ll8GShdU5sAyGr7OJF9Eg.PNG.oct1998/%BC%B3%C6%C4%B9%CD%BB%EA.png?type=w2",
 "eng": "SULFAMIC ACID",
 "cas": "5329-14-6",
+"spec": "25 KG",
 "date": "2022.11.01",
 "body": "SULFAMIC ACID H 3 NO 3 S CAS 5329-14-6 AMIDOSULFONIC ACID; AMIDOSULFURIC ACID; SULFAMIDIC ACID; AMINOSULFONIC ACID 설파민산; 설파믹산; 술팜산; 아미도술폰산; 아미도황산; 아미노술폰산; 술파미드산; 아미노황산 인도네시아 25 KG"
 },
@@ -646,6 +710,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAzMDdfMjgz/MDAxNjc4MTcwNDM0OTI2.QbKcvrEPKkv2b7LSOE7tg4ezTRsZLEJWufvHA174CCEg.eANZKSa4jl7T_aVLvRCoSLpnhno0_Ezmp58iyZGT4agg.PNG.oct1998/%C0%C0%C1%FD%C1%A6_%C6%F7%C0%E5%C1%F6_%BA%AF%B0%E6.png?type=w2",
 "eng": "POLYMER",
 "cas": "25987-30-8",
+"spec": "A-101 : 10 KG / AN923SH : 15 K",
 "date": "2022.11.01",
 "body": "POLYMER (C 3 H 5 NO.C 3 H 4 O 2 )n.nNa CAS 25987-30-8 SODIUM ACRYLATE ACRYLAMIDE POLYMER; ACRYLAMIDE-SODIUM ACRYLATE RESIN 나트륨2-프로펜산2-프로펜아미드중합체; 나트륨아크릴산염아크릴아미드중합체; 아크릴아미드-나트륨아크릴산수지 A-101 : 10 KG / AN923SH : 15 K"
 },
@@ -656,6 +721,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMzFfMTUz/MDAxNjY3MTc0Nzg1Nzg4.GiLgEBQS5ejsSgZbmLvbtq6XMrJEJSe-o7XHQkRLrt0g.4wKBC8791UhK5kHCPOAfdO9s4-88WpsLbbt0aQnwZfMg.PNG.oct1998/%B8%C1%C3%CA.png?type=w2",
 "eng": "SODIUM SULFATE",
 "cas": "7757-82-6",
+"spec": "25 KG",
 "date": "2022.10.31",
 "body": "SODIUM SULFATE CNa2O3 CAS 7757-82-6 DISODIUM SULFATE; SULFURIC ACID DISODIUM SALT; SALT CAKE; BISODIUM SULFATE; DISODIUM MONOSULFATE; SODIUM SULFATE ANHYDROUS; THENARDITE; NATRIUMSULFAT; SODIUM SULPHATE; TRONA 황산나트륨; 무수망초; 황산소다; 망초 25 KG"
 },
@@ -666,6 +732,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjdfNzIg/MDAxNjY2ODQ5MDY4NjI0.NWIahRayCyx3_NJP0o7G-V7P1MjDvndJJiemREiZeUcg._8xQg-v7063jAzIi4LpEOKPbXTSI-d1MrIVu-SJKowsg.JPEG.oct1998/%BF%C1%C5%BA%BF%C3.jpg?type=w2",
 "eng": "2-ETHYL1HEXANOL",
 "cas": "104-76-7",
+"spec": "160 KG",
 "date": "2022.10.27",
 "body": "2-ETHYL1HEXANOL C 8 H 18 O CAS 104-76-7 2-ETHYL-1-HEXANOL; 2-ETHYL HEXANOL; 2-ETHYLHEXAN-1-OL; ETHYL-1-HEXANOL 2-에틸헥산올; 2-에틸-1-헥산올; 2-에틸헥실알코올; 2-에틸헥산올; 에틸헥산올; 2-에틸헥실알콜 160 KG"
 },
@@ -676,6 +743,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjdfMTM4/MDAxNjY2ODQ0MjIzMDgw.rZ_hUCXHMVEX29btsqLAZIouxNAYSt80Z0jv9iGLx6gg.l0XMhmlo9G8YyYqbYlQsdWh8Ju7zvoc5nVOJdVq345sg.PNG.oct1998/%C7%D1%C1%D6%BC%D2%B1%DD.png?type=w2",
 "eng": "SODIUM CHLORIDE",
 "cas": "7647-14-5",
+"spec": "25 KG",
 "date": "2022.10.27",
 "body": "SODIUM CHLORIDE ClNa CAS 7647-14-5 TABLE SALT; SALINE SOLUTION; STAT TRAK PLUS; COMMON SALT; SEA SALT; ROCK SALT; HALITE; SALINE; DENDRITIS; EXTRA FINE 200 SALT; EXTRA FINE 325 SALT; STERLING; TOP FLAKE 염화나트륨; 암염; 해염; 소금; 공업염; 할리트; 바위염; 바다소금; 식탁용소금; 정제염 25 K"
 },
@@ -686,6 +754,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjdfMzAw/MDAxNjY2ODMyNzkxMjEx._tG8oiXWb6Z6Ah3CuPs7iQ22ih4ArCbGq7_wRLDycegg.CKhIzFQgH4YJ2V3K2ZOjiUqVvHDI5TzeIfcnSFi8Fdcg.JPEG.oct1998/%BF%B0%C8%AD%C4%AE%BD%B7%28%C1%DF%29.jpg?type=w2",
 "eng": "CACIUM CHLORIDE",
 "cas": "10043-52-4",
+"spec": "25 KG **염화칼슘이란? 염화칼슘은 이온성 무기",
 "date": "2022.10.27",
 "body": "CACIUM CHLORIDE CaCl 2 CAS 10043-52-4 CALCOSAN; CALCIUM DICHLORIDE; URAMINE MC; CALCIUM CHLORIDE ANHYDRATE 염화칼슘; 클로로칼슘; 염화석회; 칼코산; 우르아민MC; 칼슘이염화물 중국 25 KG **염화칼슘이란? 염화칼슘은 이온성 무기"
 },
@@ -696,6 +765,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA5MDdfMjE0/MDAxNjk0MDY3MDg0NjU5.2ShPz5QMq8A0f49Z5YmCzeJOU531rt1AHEk7Rv66V5gg.sbT3FGtHycFvSTpv6MXvehxfttOv6B9wRuSXVRNAE1sg.PNG.oct1998/%B9%AB%BC%F6%BE%C6%C8%B2%BB%EA%BC%D2%B4%D9_%B9%D9%BD%BA%C7%C1.png?type=w2",
 "eng": "SODIUM SULFITE",
 "cas": "7757-83-7",
+"spec": "25 KG",
 "date": "2022.10.26",
 "body": "SODIUM SULFITE Na2O3S CAS 7757-83-7 DISODIUM SULFITE; EXSICCATED SODIUM SULFITE; SULFUROUS ACID,DISODIUM SALT; SULFTECH; SULFUROUS ACID,SODIUM SALT (1:2); SODIUM SULFITE ANHYDROUS 아황산나트륨; 아류산소다; 황산나트륨; 나트륨아황산염; 아황산소다; 무수아류산소다; 무수아황산나트륨 태국, 바스프 25 KG"
 },
@@ -706,6 +776,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjZfMjM5/MDAxNjY2NzYyODk5NTU0.FaWLqiSDnQvao_-34yzzb_pMcexQR1MKDFd0FJm_mMcg.OBOFYa2hKzLC5cKhMVTW4o3emE3KlOUqVhU4DlxEwr8g.PNG.oct1998/%BA%F9%C3%CA%BB%EA_%BD%C4%C3%B7.png?type=w2",
 "eng": "ACETIC ACID",
 "cas": "64-19-7",
+"spec": "공업용 20KG/ BULK, 식품첨가물 20KG *",
 "date": "2022.10.26",
 "body": "ACETIC ACID C 2 H 4 O 2 CAS 64-19-7 ETHYLIC ACID; VINEGAR ACID; GLACIAL ACETIC ACID; VINEGAR; METHANECARBOXYLIC ACID; ACETATE; TCLP EXTRACTION FLUID 2; SHOTGUN 아세트산; 초산; 빙초산; 글라시알아세트산; 에탄오익산; 비네갈산; 에틸산; 피롤리그너스산; 메탄카르복실산 공업용 20KG/ BULK, 식품첨가물 20KG *"
 },
@@ -716,6 +787,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDNfOSAg/MDAxNjY3NDM0Nzg0NDAz.O-z3R25E79vMdPt8ngQcvydUvM8tFU4Spx2WbM6KwqQg.ZFQlDLGIkDwTTV5C03y0x9vUF_C3tojhTymmZKL3svog.JPEG.oct1998/PVA_P05A.jpg?type=w2",
 "eng": "Acetic acid ethenyl ester polymer with ethenol( POLYVINYL ALCOHOL )",
 "cas": "25213-24-5",
+"spec": "20 KG",
 "date": "2022.10.26",
 "body": "Acetic acid ethenyl ester polymer with ethenol( POLYVINYL ALCOHOL ) (C 2 H 4 O)n CAS 25213-24-5 에테닐아세트산,중합체,함유에텐올; 아세트산에테닐에스테르,중합체,함유에텐올 20 KG"
 },
@@ -726,6 +798,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjExMDhfMjU0/MDAxNjY3ODg1NDY2MjM4.GtyBQyblxbo08crhoZg3yOpH8mlxE8uApO-jnpykUpog.s5og4P-Nbi4lCj0prfjj0TzuUngrrU8TIKQSKRAvli0g.JPEG.oct1998/%B0%A1%BC%BA%BC%D2%B4%D9%28%C5%C2%B1%B9_%C0%AF%B4%CF%B5%E5%29.jpg?type=w2",
 "eng": "SODIUM HYDROXIDE",
 "cas": "1310-73-2",
+"spec": "25 KG",
 "date": "2022.10.25",
 "body": "SODIUM HYDROXIDE HNaO CAS 1310-73-2 CAUSTIC SODA; SODIUM HYDRATE; SODA LYE; LYE; WHITE CAUSTIC; LYE, CAUSTIC; AUGUS HOT ROD 수산화나트륨; 가성소다; 카우스틱소다; 소디움하이드록사이드; 나트륨하이드록사이드; 양잿물; 액가성 국산(98% / 70% / 50%), 25 KG"
 },
@@ -736,6 +809,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjVfMTcw/MDAxNjY2Njc4NjUyNTQz.YwwHmczRi7UGflXD0pxDsN4fzQc2Qkql66GNBkC_UR8g.xsbbD6rVcO0SWHwwP3h_C1G2OghSs2-DNBEZWdXbB0Qg.JPEG.oct1998/%B8%F4%C6%F7%B8%B0_%28%C7%E5%C3%F7%B8%B8_210kg%29.jpg?type=w2",
 "eng": "MORPHOLINE",
 "cas": "110-91-8",
+"spec": "210 KG",
 "date": "2022.10.25",
 "body": "MORPHOLINE C 4 H 9 NO CAS 110-91-8 TETRAHYDRO-2H-1,4-OXAZINE; DIETHYLENE OXIMIDE; TETRAHYDRO-1,4-OXAZINE; DIETHYLENIMIDE OXIDE; TETRAHYDRO-4H-1-4-OXAZINE; 1-OXA-4-AZACYCLOHEXANE 몰포린; 디에틸렌이미드산화물; 테트라하이드로-1,4-옥사진; 1-옥사-4-아자시클로헥산; 디에틸렌옥스이미드 210 KG"
 },
@@ -746,6 +820,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTJfMjkw/MDAxNjczNDg2Njg4NDkw.D0BV9w4yRsOudzd3b9hU9J54frIoWtzV8LkGKh4JzVUg.kPIOCw-073nEK19_JCyoDPLce77cP3WaZp_ijgKeQ8Ag.JPEG.oct1998/%B9%AB%BC%F6%C5%A9%B7%D2_%28%B9%CC_%C0%AF%B4%CF%B5%E5%29.jpg?type=w2",
 "eng": "CHROMIUM TRIOXIDE",
 "cas": "1333-82-0",
+"spec": "50KG / 25KG",
 "date": "2022.10.25",
 "body": "CHROMIUM TRIOXIDE CrO 3 CAS 1333-82-0 CHROMIUM ANHYDRIDE; CHROMIUM(VI) OXIDE; CHROMIC ANHYDRIDE; CHROMIC TRIOXIDE; MONOCHROMIUM OXIDE; CHROMIUM(VI)OXIDE (1:3); CHROMERGE; CHROMIUM(VI)TRIOXIDE; CHROMIUM OXIDE 무수크롬산; 삼산화크롬; 크롬무수물; 크롬트리산화물; 모노크롬트리산화물; 크롬(VI)산화물"
 },
@@ -756,6 +831,7 @@ window.OCT_PRODUCTS = [
 "thumb": "https://blogthumb.pstatic.net/MjAyMjEwMjVfMjQy/MDAxNjY2NjU1OTY4NTI0.CtXl9yW8JPXVg6p20zNmwTvIO47vL-Y5s9LDVbv98rAg.cKOjDaVGcqSysPiYrEEKJxQNYIYKrpuhhx802spg2tog.PNG.oct1998/%C1%FA%BB%EA%B8%B6%B1%D7%B3%D7%BD%B7.png?type=w2",
 "eng": "MAGNESIUM NITRATE",
 "cas": "10377-60-3",
+"spec": "25 KG",
 "date": "2022.10.25",
 "body": "MAGNESIUM NITRATE Mg(NO 3 ) 2 CAS 10377-60-3 MAGNESIUM(II) NITRATE; NITRIC ACID,MAGNESIUM SALT 질산마그네슘; 마그네슘니트레이트; 질산,마그네슘염; 마그네슘(II)니트레이트 25 KG"
 }
