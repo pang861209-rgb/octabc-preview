@@ -420,16 +420,6 @@ window.OCT_PRODUCTS = [
 "body": "2-Mercaptoethanol C 2 H 6 OS CAS 60-24-2 HYDROXYETHYL MERCAPTAN; 2-HYROXY-1-ETHANETHIOL; THIOGLYCOL; BETA-MERCAPTOETHANOL; THIOMONOGLYCOL; 2-MERCAPTOETHANOL 2-메르캅토에탄올; 메르캅토에탄올; 2-하이드록시에틸메르캅탄; 베타-하이드록시에틸메르캅탄; 2-티오에탄올; 2-메르캅토에틸알코올 210 KG"
 },
 {
-"title": "(주)동양케미칼테크 공식대리점",
-"cat": "유·무기약품",
-"link": "https://blog.naver.com/dongyangchemical/222981226220",
-"thumb": "https://blogthumb.pstatic.net/MjAyMzAxMTFfMjgz/MDAxNjczNDEzNjE5ODI3.Fq50OeXB2AkyqC8DSVY3NnHUKCEgNeCJcuTQ1OsqTn8g.Esi-CG7eRJZyU1GJKlAMVwg4vve_xd6va1TwOTtJTCEg.PNG.oct1998/%B0%F8%BD%C4%B4%EB%B8%AE%C1%A1.png?type=w2",
-"eng": "",
-"cas": "",
-"date": "2023.01.11",
-"body": ""
-},
-{
 "title": "에탄올 (Ethanol)",
 "cat": "유·무기약품",
 "link": "https://blog.naver.com/dongyangchemical/222975502435",

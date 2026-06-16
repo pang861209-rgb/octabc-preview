@@ -64,8 +64,12 @@
 
   /* toolbar */
   .toolbar{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin:40px 0 26px}
+  .tb-left{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .count{font-size:.95rem;color:var(--muted)}
   .count b{color:var(--ink);font-weight:700}
+  .sort{font-family:var(--sans);font-size:.92rem;font-weight:600;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 36px 10px 16px;cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235d6f78' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;transition:border-color .25s}
+  .sort:hover{border-color:var(--aqua)}
+  .sort:focus{outline:none;border-color:var(--aqua);box-shadow:0 0 0 4px rgba(16,169,142,.12)}
   .search{position:relative;flex:1;min-width:260px;max-width:560px}
   .search input{
     width:100%;padding:15px 20px 15px 48px;border:1px solid var(--line);border-radius:999px;
@@ -128,7 +132,7 @@
   <div class="wrap nav-inner">
     <a class="brand" href="index.html">
       <span class="mark"><img src="images/logo.png" alt="(주)동양케미칼테크 OCT 로고" /></span>
-      <span><b>(주)동양케미칼테크</b><span>친환경 화학 솔루션 전문기업</span></span>
+      <span><b>(주)동양케미칼테크</b><span>화학약품 전문 공급기업</span></span>
     </a>
     <div class="nav-links">
       <nav>
@@ -175,7 +179,13 @@
   </div>
 
   <div class="toolbar">
-    <div class="count">총 <b id="count">0</b>개 제품</div>
+    <div class="tb-left">
+      <div class="count">총 <b id="count">0</b>개 제품</div>
+      <select id="sort" class="sort" aria-label="정렬">
+        <option value="recent">최신 등록순</option>
+        <option value="name">이름순 (가나다·ABC)</option>
+      </select>
+    </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
       <input id="q" type="text" placeholder="제품명·영문명·CAS·성분 검색 (예: 송진, STPP, 8050)" autocomplete="off" />
@@ -192,7 +202,7 @@
     <div class="foot-top">
       <div class="foot-brand">
         <b>(주)동양케미칼테크</b>
-        <p>친환경 화학 솔루션으로 더 깨끗한 산업 환경을 만들어 갑니다.</p>
+        <p>신뢰받는 화학약품 공급으로 산업 현장과 함께합니다.</p>
       </div>
       <div class="foot-cols">
         <div>
@@ -277,13 +287,16 @@
     }).join('');
   }
   function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-  function filter(){
+  const sortSel=document.getElementById('sort');
+  function apply(){
     const t=q.value.trim().toLowerCase();
-    if(!t){render(DATA);return;}
-    render(DATA.filter(p=>(p.title+' '+p.eng+' '+p.cas+' '+(p.body||'')).toLowerCase().includes(t)));
+    let list = t ? DATA.filter(p=>(p.title+' '+p.eng+' '+p.cas+' '+(p.body||'')).toLowerCase().includes(t)) : DATA.slice();
+    if(sortSel && sortSel.value==='name') list.sort((a,b)=>(a.title||'').localeCompare(b.title||'','ko'));
+    render(list);
   }
-  q.addEventListener('input',filter);
-  render(DATA);
+  q.addEventListener('input',apply);
+  if(sortSel) sortSel.addEventListener('change',apply);
+  apply();
 </script>
 </body>
 </html>
