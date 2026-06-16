@@ -49,7 +49,7 @@ window.OCT_PRODUCTS = [
 "link": "https://blog.naver.com/dongyangchemical/223122207737",
 "thumb": "https://blogthumb.pstatic.net/MjAyMzExMDFfNDkg/MDAxNjk4ODAxOTIxOTkw.LbH8PTac3wfcK8ooXT4W3JvUeB49Xfjb4nWN3iy2rNsg.b0KLPAMLsffVD-1L52vCp-Ogzt8X0D91_7v5JBKGR84g.PNG.oct1998/%B9%AB%BC%F6%B8%DE%C5%B8%B1%D4%BB%EA%BC%D2%B4%D9.png?type=w2",
 "eng": "SODIUM METASILICATE",
-"cas": "6834-92-0",
+"cas": "6834-92-0 (무수), 10213-79-3 (5수), 13517-24-3 (9수)",
 "spec": "25 KG",
 "date": "2023.06.07",
 "body": "SODIUM METASILICATE [5수]H 10 Na 2 O 8 Si , [9수]H 18 Na 2 O 12 Si CAS 6834-92-0 1) [5수] 메타규산나트륨(5수화물); 메타규산소다(5수화물) 2) [9수] 메타규산나트륨(9수화물); 메타규산소다(9수화물) 국산, 수입 25 KG <무수 메타규산소다>"
@@ -148,7 +148,7 @@ window.OCT_PRODUCTS = [
 "link": "https://blog.naver.com/dongyangchemical/223116438512",
 "thumb": "https://blogthumb.pstatic.net/MjAyMzA1MzFfMTgw/MDAxNjg1NTA2OTc1OTg3.fw75nQ2x3Rx5hM6IB_AcaLl5KrKfZ9K3JyR4yAK-c6Yg.wgxePPZ1dMRySqERGtGrOuPoqZ7vVek1Vu_oXxd2Q0sg.PNG.oct1998/%B1%B8%BF%AC%BB%EA.png?type=w2",
 "eng": "CITRIC ACID",
-"cas": "",
+"cas": "77-92-9 (무수), 5949-29-1 (함수)",
 "spec": "25 KG",
 "date": "2023.05.31",
 "body": "CITRIC ACID C 6 H 8 O 7 1) (무수) 2-HYDROXY-1,2,3-PROPANETRICARBOXYLIC ACID; BETA-HYDROXYTRICARBALLYLIC ACID; ACILETTEN; CITRETTEN; CITRO; HYDROCEROL A; 2-HYDROXYTRICARBALLYLIC ACID; CITRIC ACID ANHYDROUS 2) (함수) 2-HYDROXY-1,2,3,PROPANE-TRICARBOXYLIC ACID, MONOH"
