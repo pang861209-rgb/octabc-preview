@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>(주)동양케미칼테크 | 화학약품 전문 공급기업</title>
+<meta name="description" content="(주)동양케미칼테크는 무기·유기 화학약품을 수입·공급합니다. 수처리, 해양오염 방제, 표면세정, 토양복원, 농업 분야의 검증된 화학약품 공급 파트너." />
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/png" href="../images/favicon.png" />
+<link rel="apple-touch-icon" href="../images/logo.png" />
+<meta name="theme-color" content="#1E3932" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendard-dynamic-subset.css" />
+<style>
+  :root{
+    /* Starbucks green tiers */
+    --sb-green:#006241;       /* brand heading */
+    --green-accent:#00754A;   /* primary CTA */
+    --house-green:#1E3932;    /* deep bands / footer */
+    --uplift:#2b5148;
+    --green-light:#d4e9e2;
+    /* gold (ceremony only) */
+    --gold:#cba258;
+    --gold-lightest:#faf6ee;
+    /* warm-neutral canvas */
+    --cream:#f2f0eb;
+    --ceramic:#edebe9;
+    --white:#fff;
+    --cool:#f9f9f9;
+    /* text */
+    --ink:rgba(0,0,0,.87);
+    --ink-soft:rgba(0,0,0,.58);
+    --white-soft:rgba(255,255,255,.70);
+    --line:rgba(0,0,0,.10);
+    --card-sh:0 0 .5px 0 rgba(0,0,0,.14),0 1px 1px 0 rgba(0,0,0,.24);
+    --maxw:1240px;
+    --font:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font);color:var(--ink);background:var(--cream);line-height:1.5;letter-spacing:-.01em;word-break:keep-all;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+  @media(max-width:768px){.wrap{padding:0 24px}}
+  @media(max-width:480px){.wrap{padding:0 16px}}
+
+  /* ---------- buttons ---------- */
+  .btn{display:inline-flex;align-items:center;gap:8px;font-family:inherit;font-size:16px;font-weight:600;letter-spacing:-.01em;border-radius:50px;padding:13px 26px;border:1px solid transparent;cursor:pointer;transition:all .2s ease;white-space:nowrap}
+  .btn:active{transform:scale(.95)}
+  .btn-fill{background:var(--green-accent);color:#fff;border-color:var(--green-accent)}
+  .btn-fill:hover{background:#00633f}
+  .btn-out{background:transparent;color:var(--green-accent);border-color:var(--green-accent)}
+  .btn-out:hover{background:rgba(0,117,74,.06)}
+  .btn-white{background:#fff;color:var(--green-accent);border-color:#fff}
+  .btn-white:hover{background:#f1f1f1}
+  .btn-ghost-d{background:transparent;color:#fff;border-color:#fff}
+  .btn-ghost-d:hover{background:rgba(255,255,255,.10)}
+  .btn-sm{font-size:14px;padding:9px 18px}
+
+  /* ---------- nav ---------- */
+  .nav{position:sticky;top:0;z-index:100;background:var(--white);box-shadow:0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07)}
+  .nav-in{display:flex;align-items:center;gap:28px;height:80px}
+  .brand{display:flex;align-items:center;gap:12px;margin-right:8px}
+  .brand img{width:42px;height:42px;object-fit:contain}
+  .brand .bn{display:flex;flex-direction:column;line-height:1.15}
+  .brand .bn b{font-size:17px;font-weight:800;color:var(--house-green)}
+  .brand .bn span{font-size:11.5px;color:var(--ink-soft);font-weight:500}
+  .nav-links{display:flex;gap:26px;margin-left:auto}
+  .nav-links a{font-size:15.5px;font-weight:600;color:var(--ink);padding:6px 2px;position:relative}
+  .nav-links a:hover{color:var(--green-accent)}
+  .nav-cta{display:flex;align-items:center;gap:10px}
+  .nav-tel{font-size:15px;font-weight:700;color:var(--green-accent)}
+  .hamb{display:none;margin-left:auto;background:none;border:none;cursor:pointer;padding:8px;flex-direction:column;gap:5px}
+  .hamb span{width:24px;height:2px;background:var(--house-green);border-radius:2px;transition:.2s}
+  .mob{display:none;background:#fff;border-top:1px solid var(--line)}
+  .mob a{display:block;padding:15px 24px;font-size:16px;font-weight:600;border-bottom:1px solid var(--line)}
+  .mob .btn{margin:14px 24px;width:calc(100% - 48px);justify-content:center}
+  @media(max-width:900px){
+    .nav-links,.nav-cta{display:none}
+    .hamb{display:flex}
+    .mob.open{display:block}
+  }
+
+  /* ---------- hero ---------- */
+  .hero{background:var(--cream);padding:84px 0 96px}
+  .hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.02em;text-transform:uppercase;color:var(--green-accent);background:var(--green-light);padding:7px 15px;border-radius:50px;margin-bottom:22px}
+  .hero h1{font-size:clamp(2.4rem,4.6vw,3.6rem);font-weight:800;line-height:1.18;letter-spacing:-.02em;color:var(--sb-green)}
+  .hero h1 em{font-style:normal;color:var(--house-green)}
+  .hero p.lead{font-size:19px;line-height:1.75;color:var(--ink);margin:24px 0 34px;max-width:30em}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-img{position:relative}
+  .hero-img img{width:100%;aspect-ratio:4/3.4;object-fit:cover;border-radius:20px;box-shadow:0 20px 50px -24px rgba(30,57,50,.5)}
+  .hero-badge{position:absolute;left:-18px;bottom:24px;background:#fff;border-radius:14px;box-shadow:var(--card-sh);padding:16px 20px}
+  .hero-badge b{display:block;font-size:24px;font-weight:800;color:var(--sb-green);line-height:1}
+  .hero-badge span{font-size:13px;color:var(--ink-soft);font-weight:600}
+  @media(max-width:860px){
+    .hero{padding:56px 0 64px}
+    .hero-grid{grid-template-columns:1fr;gap:38px}
+    .hero-img{order:-1}
+    .hero-img img{aspect-ratio:16/10}
+    .hero-badge{left:auto;right:18px}
+  }
+
+  /* ---------- section heads ---------- */
+  .sec{padding:84px 0}
+  .sec-head{text-align:center;max-width:640px;margin:0 auto 52px}
+  .sec-head .kicker{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--green-accent);margin-bottom:12px}
+  .sec-head h2{font-size:clamp(1.8rem,3vw,2.4rem);font-weight:800;letter-spacing:-.02em;color:var(--house-green)}
+  .sec-head p{margin-top:14px;font-size:17px;color:var(--ink-soft);line-height:1.7}
+  @media(max-width:768px){.sec{padding:60px 0}}
+
+  /* ---------- application cards ---------- */
+  .apps{background:var(--white)}
+  .app-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+  .app-card{background:var(--white);border:1px solid var(--line);border-radius:12px;box-shadow:var(--card-sh);padding:28px 22px;text-align:center;transition:transform .2s ease,box-shadow .2s ease}
+  .app-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px -16px rgba(0,0,0,.3)}
+  .app-ic{width:56px;height:56px;margin:0 auto 16px;border-radius:50%;background:var(--green-light);display:grid;place-items:center}
+  .app-ic svg{width:28px;height:28px;stroke:var(--sb-green);fill:none;stroke-width:1.7}
+  .app-card h3{font-size:17px;font-weight:700;color:var(--house-green);margin-bottom:8px}
+  .app-card p{font-size:13.5px;color:var(--ink-soft);line-height:1.6}
+  @media(max-width:980px){.app-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:480px){.app-grid{grid-template-columns:1fr}}
+
+  /* ---------- feature band (house green) ---------- */
+  .band{background:var(--house-green);color:#fff;padding:84px 0}
+  .band-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .band h2{font-size:clamp(1.9rem,3vw,2.5rem);font-weight:800;line-height:1.25;letter-spacing:-.02em}
+  .band p{color:var(--white-soft);font-size:18px;line-height:1.75;margin:20px 0 30px}
+  .stats{display:flex;gap:40px;flex-wrap:wrap}
+  .stat b{display:block;font-size:38px;font-weight:800;color:#fff;line-height:1}
+  .stat span{font-size:14px;color:var(--white-soft);font-weight:600;margin-top:6px;display:block}
+  .band-cta{margin-top:34px}
+  @media(max-width:860px){.band{padding:60px 0}.band-grid{grid-template-columns:1fr;gap:32px}}
+
+  /* ---------- product preview ---------- */
+  .prods{background:var(--cream)}
+  .prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+  .prod-card{background:var(--white);border-radius:12px;box-shadow:var(--card-sh);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s ease,box-shadow .2s ease}
+  .prod-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px -16px rgba(0,0,0,.3)}
+  .prod-thumb{aspect-ratio:4/3;background:var(--ceramic);overflow:hidden}
+  .prod-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+  .prod-card:hover .prod-thumb img{transform:scale(1.05)}
+  .prod-body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:5px;flex:1}
+  .prod-cat{font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--green-accent)}
+  .prod-body h3{font-size:15.5px;font-weight:700;color:var(--house-green);line-height:1.35}
+  .prod-eng{font-size:12.5px;color:var(--ink-soft);line-height:1.4;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;min-height:1.2em}
+  .prod-cas{font-size:12px;color:var(--ink-soft);margin-top:auto;padding-top:6px}
+  .prods-more{text-align:center;margin-top:44px}
+  @media(max-width:980px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:680px){.prod-grid{grid-template-columns:repeat(2,1fr)}}
+
+  /* ---------- partners ---------- */
+  .partners{background:var(--ceramic)}
+  .pt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .pt-card{background:#fff;border-radius:12px;box-shadow:var(--card-sh);overflow:hidden;text-align:center;transition:transform .2s ease}
+  .pt-card:hover{transform:translateY(-4px)}
+  .pt-logo{height:150px;display:flex;align-items:center;justify-content:center;padding:30px;border-bottom:1px solid var(--line)}
+  .pt-logo img{max-height:82px;max-width:78%;width:auto;object-fit:contain}
+  .pt-body{padding:22px 18px 26px}
+  .pt-role{display:inline-block;font-size:12px;font-weight:700;color:var(--green-accent);background:var(--green-light);padding:5px 12px;border-radius:50px;margin-bottom:10px}
+  .pt-body h3{font-size:18px;font-weight:800;color:var(--house-green)}
+  .pt-body p{font-size:13.5px;color:var(--ink-soft);margin-top:6px}
+  .pt-visit{font-size:13px;font-weight:700;color:var(--green-accent);margin-top:12px;display:inline-block}
+  @media(max-width:760px){.pt-grid{grid-template-columns:1fr}}
+
+  /* ---------- contact cta ---------- */
+  .cta{background:var(--cream)}
+  .cta-box{background:var(--gold-lightest);border:1px solid rgba(203,162,88,.3);border-radius:20px;padding:54px 40px;text-align:center}
+  .cta-box h2{font-size:clamp(1.7rem,2.6vw,2.2rem);font-weight:800;color:var(--house-green);letter-spacing:-.02em}
+  .cta-box p{font-size:17px;color:var(--ink-soft);margin:14px 0 30px;line-height:1.7}
+  .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--house-green);color:var(--white-soft);padding:64px 0 34px}
+  .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1.2fr;gap:40px;padding-bottom:38px;border-bottom:1px solid rgba(255,255,255,.14)}
+  .foot-brand b{font-size:19px;font-weight:800;color:#fff}
+  .foot-brand p{margin-top:12px;font-size:14px;line-height:1.7;max-width:24em}
+  .foot-col h4{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+  .foot-col a,.foot-col div{display:block;font-size:14.5px;color:var(--white-soft);margin-bottom:11px;line-height:1.5}
+  .foot-col a:hover{color:#fff}
+  .foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding-top:26px;font-size:13px;color:rgba(255,255,255,.55)}
+  @media(max-width:760px){.foot-top{grid-template-columns:1fr;gap:30px}}
+
+  /* ---------- frap floating button ---------- */
+  .frap{position:fixed;right:24px;bottom:24px;z-index:200;width:56px;height:56px;border-radius:50%;background:var(--green-accent);display:grid;place-items:center;box-shadow:0 0 6px rgba(0,0,0,.24),0 8px 12px rgba(0,0,0,.14);transition:transform .2s ease,box-shadow .2s ease}
+  .frap:hover{transform:translateY(-2px)}
+  .frap:active{transform:scale(.95);box-shadow:0 0 6px rgba(0,0,0,.24),0 8px 12px rgba(0,0,0,0)}
+  .frap svg{width:26px;height:26px;fill:#fff}
+  @media(max-width:480px){.frap{right:16px;bottom:16px}}
+
+  /* demo ribbon */
+  .demo-tag{background:var(--house-green);color:#fff;text-align:center;font-size:12.5px;font-weight:600;padding:7px 16px;letter-spacing:.01em}
+  .demo-tag a{color:var(--gold);font-weight:700;text-decoration:underline}
+</style>
+</head>
+<body>
+
+<div class="demo-tag">스타벅스 스타일 시안 (데모) · 기존 사이트와 별개입니다 — <a href="../index.html">현재 사이트 보기</a></div>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">
+      <img src="../images/logo.png" alt="(주)동양케미칼테크 로고" />
+      <span class="bn"><b>(주)동양케미칼테크</b><span>화학약품 전문 공급기업</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#apps">적용 분야</a>
+      <a href="#products">제품</a>
+      <a href="#partners">대리점</a>
+      <a href="#contact">오시는 길</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="nav-tel" href="tel:051-973-5222">051-973-5222</a>
+      <a class="btn btn-fill btn-sm" href="#products">제품 카탈로그</a>
+    </div>
+    <button class="hamb" id="hamb" aria-label="메뉴 열기"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mob" id="mob">
+    <a href="#apps">적용 분야</a>
+    <a href="#products">제품</a>
+    <a href="#partners">대리점</a>
+    <a href="#contact">오시는 길</a>
+    <a class="btn btn-fill" href="tel:051-973-5222">전화 문의 051-973-5222</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">화학약품 전문 공급기업</span>
+        <h1>믿을 수 있는<br /><em>화학약품 공급 파트너</em></h1>
+        <p class="lead">(주)동양케미칼테크는 다양한 무기·유기 화학약품을 수입·공급합니다. 수처리부터 해양오염 방제, 토양복원까지 — 검증된 제품을 정확하고 안정적으로 공급합니다.</p>
+        <div class="hero-cta">
+          <a class="btn btn-fill" href="#products">제품 카탈로그 보기</a>
+          <a class="btn btn-out" href="#contact">문의하기</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="../images/hero.jpg" alt="(주)동양케미칼테크 본사 전경" />
+        <div class="hero-badge"><b id="heroCount">100종+</b><span>취급 화학약품</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATION FIELDS -->
+  <section class="sec apps" id="apps">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Applications</div>
+        <h2>다섯 가지 핵심 적용 분야</h2>
+        <p>다양한 산업 현장의 까다로운 과제 해결을 위한 검증된 화학약품을 공급합니다.</p>
+      </div>
+      <div class="app-grid">
+        <div class="app-card">
+          <div class="app-ic"><svg viewBox="0 0 24 24"><path d="M12 3c4 5 6 8 6 11a6 6 0 0 1-12 0c0-3 2-6 6-11z"/></svg></div>
+          <h3>수처리</h3><p>응집·살균·중화 등 수처리 공정 약품</p>
+        </div>
+        <div class="app-card">
+          <div class="app-ic"><svg viewBox="0 0 24 24"><path d="M2 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M2 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></div>
+          <h3>해양오염 방제</h3><p>유출·오염 방제용 화학 처리제</p>
+        </div>
+        <div class="app-card">
+          <div class="app-ic"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg></div>
+          <h3>표면세정</h3><p>금속 탈지·세정·표면처리 약품</p>
+        </div>
+        <div class="app-card">
+          <div class="app-ic"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5M3 17l9 4 9-4"/></svg></div>
+          <h3>토양복원</h3><p>오염 토양 정화·복원용 약품</p>
+        </div>
+        <div class="app-card">
+          <div class="app-ic"><svg viewBox="0 0 24 24"><path d="M12 21c0-7 3-12 9-13-1 7-4 11-9 13zM12 21C7 19 4 15 3 8c6 1 9 6 9 13z"/></svg></div>
+          <h3>농업</h3><p>비료 원료·농업용 화학 자재</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE BAND -->
+  <section class="band">
+    <div class="wrap band-grid">
+      <div>
+        <h2>검증된 화학약품을<br />한 곳에서 안정적으로</h2>
+        <p>오랜 업력과 신뢰를 바탕으로 무기·유기 화학약품을 폭넓게 공급합니다. 필요하신 제품을 카탈로그에서 확인하고 언제든 상담해 주세요.</p>
+        <div class="stats">
+          <div class="stat"><b id="statCount">100종+</b><span>취급 품목</span></div>
+          <div class="stat"><b>전국</b><span>공급 네트워크</span></div>
+          <div class="stat"><b>신뢰</b><span>검증된 품질</span></div>
+        </div>
+        <div class="band-cta"><a class="btn btn-white" href="#products">제품 카탈로그 보기</a></div>
+      </div>
+      <div class="band-img">
+        <img src="../images/building.jpg" alt="(주)동양케미칼테크 시설" style="width:100%;border-radius:16px;object-fit:cover;aspect-ratio:16/10" onerror="this.style.display='none'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PREVIEW -->
+  <section class="sec prods" id="products">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Products</div>
+        <h2>취급 제품</h2>
+        <p>회사 블로그에 등록된 제품을 미리 확인하세요. 전체 목록은 카탈로그에서 보실 수 있습니다.</p>
+      </div>
+      <div class="prod-grid" id="prodGrid"></div>
+      <div class="prods-more"><a class="btn btn-fill" href="../products.html">전체 제품 카탈로그 →</a></div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="sec partners" id="partners">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Partners</div>
+        <h2>신뢰로 연결된 대리점 네트워크</h2>
+        <p>국내 주요 화학 기업과의 파트너십으로 안정적인 공급 체계를 갖추고 있습니다.</p>
+      </div>
+      <div class="pt-grid">
+        <a class="pt-card" href="https://www.oci.co.kr/" target="_blank" rel="noopener">
+          <div class="pt-logo"><img src="../images/partner-oci.png" alt="OCI 주식회사 로고" /></div>
+          <div class="pt-body"><span class="pt-role">종합대리점</span><h3>OCI 주식회사</h3><p>국내 대표 화학·소재 기업</p><span class="pt-visit">사이트 방문 ↗</span></div>
+        </a>
+        <a class="pt-card" href="https://www.foosungchem.com/" target="_blank" rel="noopener">
+          <div class="pt-logo"><img src="../images/partner-foosung.png" alt="(주)후성 FOOSUNG 로고" /></div>
+          <div class="pt-body"><span class="pt-role">불화물 대리점</span><h3>(주)후성</h3><p>정밀화학·특수가스 전문 기업</p><span class="pt-visit">사이트 방문 ↗</span></div>
+        </a>
+        <a class="pt-card" href="http://www.sam-myung.com/" target="_blank" rel="noopener">
+          <div class="pt-logo"><img src="../images/partner-smc.png" alt="삼명캐닝(주) SMC 로고" /></div>
+          <div class="pt-body"><span class="pt-role">표면처리약품 대리점</span><h3>삼명캐닝(주)</h3><p>표면처리약품 공급 대리점</p><span class="pt-visit">사이트 방문 ↗</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section class="sec cta" id="contact">
+    <div class="wrap">
+      <div class="cta-box">
+        <h2>제품 상담이 필요하신가요?</h2>
+        <p>제품 공급·견적 문의는 전화 또는 이메일로 언제든 연락해 주세요.<br />평일 08:00~17:00 친절하게 상담해 드립니다.</p>
+        <div class="cta-row">
+          <a class="btn btn-fill" href="tel:051-973-5222">전화 문의 051-973-5222</a>
+          <a class="btn btn-out" href="mailto:oct98@hanmail.net">이메일 보내기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <b>(주)동양케미칼테크</b>
+        <p>신뢰받는 화학약품 공급으로 산업 현장과 함께합니다.</p>
+      </div>
+      <div class="foot-col">
+        <h4>바로가기</h4>
+        <a href="#apps">적용 분야</a>
+        <a href="#products">제품</a>
+        <a href="#partners">대리점</a>
+        <a href="#contact">오시는 길</a>
+      </div>
+      <div class="foot-col">
+        <h4>연락처</h4>
+        <a href="tel:051-973-5222">전화 051-973-5222</a>
+        <div>팩스 051-973-7222</div>
+        <a href="mailto:oct98@hanmail.net">oct98@hanmail.net</a>
+        <div>부산광역시 강서구 유통단지1로58번길 48</div>
+        <div>전화 응대 평일 08:00~17:00</div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 (주)동양케미칼테크. All rights reserved.</div>
+      <div>대표 최지욱 · 사업자등록번호 605-81-29626</div>
+    </div>
+  </div>
+</footer>
+
+<a class="frap" href="tel:051-973-5222" aria-label="전화 걸기">
+  <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.1 2.2z"/></svg>
+</a>
+
+<script src="../products-data.js"></script>
+<script>
+(function(){
+  var data = (window.OCT_PRODUCTS || []);
+  // counts
+  var n = data.length;
+  if(n){
+    var label = n + '종';
+    var hc=document.getElementById('heroCount'), sc=document.getElementById('statCount');
+    if(hc) hc.textContent = label;
+    if(sc) sc.textContent = label;
+  }
+  // product preview (first 8 with thumbnails)
+  function esc(s){return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  var grid = document.getElementById('prodGrid');
+  var list = data.slice(0, 8);
+  grid.innerHTML = list.map(function(p){
+    var thumb = p.thumb ? '<img loading="lazy" alt="'+esc(p.title)+'" src="../'+p.thumb+'" onerror="this.parentNode.style.background=\'#edebe9\';this.remove()">' : '';
+    return '<a class="prod-card" href="'+esc(p.link)+'" target="_blank" rel="noopener">'
+      + '<div class="prod-thumb">'+thumb+'</div>'
+      + '<div class="prod-body">'
+      + '<div class="prod-cat">'+esc(p.cat||'')+'</div>'
+      + '<h3>'+esc(p.title)+'</h3>'
+      + '<div class="prod-eng">'+esc(p.eng||'')+'</div>'
+      + (p.cas?'<div class="prod-cas">CAS '+esc(p.cas)+'</div>':'')
+      + '</div></a>';
+  }).join('');
+  // mobile menu
+  var hamb=document.getElementById('hamb'), mob=document.getElementById('mob');
+  hamb.addEventListener('click', function(){ mob.classList.toggle('open'); });
+  mob.addEventListener('click', function(e){ if(e.target.tagName==='A') mob.classList.remove('open'); });
+})();
+</script>
+</body>
+</html>
