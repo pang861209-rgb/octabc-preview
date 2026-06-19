@@ -555,8 +555,84 @@
       <div class="sec-head reveal">
         <span class="eyebrow">Contact &amp; Location</span>
         <h2>문의 및 오시는 길</h2>
-        <p>제품 상담 및 공급 문의는 아래 연락처로 언제든 문의해 주시기 바랍니다.</p>
+        <p>아래 문의 양식을 작성해 주시거나, 연락처로 직접 문의해 주시기 바랍니다.</p>
       </div>
+      <style>
+        .inq-wrap{margin:0 0 34px}
+        .inq-form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;box-shadow:0 10px 30px -20px rgba(10,34,48,.4)}
+        .inq-form .inq-row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+        .inq-form label{display:flex;flex-direction:column;gap:7px;font-size:.84rem;font-weight:700;color:var(--ink-soft);margin-bottom:16px}
+        .inq-form input,.inq-form textarea{font-family:inherit;font-size:.95rem;font-weight:400;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:11px 13px;transition:border-color .15s,box-shadow .15s}
+        .inq-form input::placeholder,.inq-form textarea::placeholder{color:var(--muted)}
+        .inq-form input:focus,.inq-form textarea:focus{outline:none;border-color:var(--aqua);box-shadow:0 0 0 3px var(--aqua-tint)}
+        .inq-form textarea{resize:vertical;min-height:96px}
+        .inq-form .req{color:var(--aqua-deep)}
+        .inq-form .inq-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+        .inq-form button[type=submit]{cursor:pointer;border:none}
+        .inq-form button[disabled]{opacity:.6;cursor:default}
+        .inq-status{font-size:.9rem;font-weight:600;margin:0}
+        .inq-status.ok{color:var(--aqua-deep)}
+        .inq-status.err{color:#c0392b}
+        .inq-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+        @media(max-width:640px){.inq-form .inq-row2{grid-template-columns:1fr}}
+      </style>
+      <div class="inq-wrap reveal">
+        <form id="inquiryForm" class="inq-form" novalidate>
+          <input type="hidden" name="access_key" value="PASTE_YOUR_WEB3FORMS_ACCESS_KEY_HERE">
+          <input type="hidden" name="subject" value="[홈페이지 문의] (주)동양케미칼테크">
+          <input type="hidden" name="from_name" value="(주)동양케미칼테크 홈페이지">
+          <input type="text" name="botcheck" class="inq-hp" tabindex="-1" autocomplete="off">
+          <div class="inq-row2">
+            <label>업체명 / 성함 <span class="req">*</span>
+              <input type="text" name="name" required placeholder="예: 동양케미칼테크 / 홍길동">
+            </label>
+            <label>연락처 <span class="req">*</span>
+              <input type="tel" name="phone" required placeholder="예: 010-0000-0000">
+            </label>
+          </div>
+          <div class="inq-row2">
+            <label>이메일
+              <input type="email" name="email" placeholder="회신받으실 이메일 (선택)">
+            </label>
+            <label>문의 제품
+              <input type="text" name="product" placeholder="예: STPP, 가성소다 (선택)">
+            </label>
+          </div>
+          <label>문의 내용 <span class="req">*</span>
+            <textarea name="message" rows="4" required placeholder="필요하신 제품·수량·용도 등을 적어주시면 빠르게 답변드리겠습니다."></textarea>
+          </label>
+          <div class="inq-actions">
+            <button type="submit" class="btn btn-primary">문의 보내기</button>
+            <p class="inq-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+      <script>
+      (function(){
+        var f=document.getElementById('inquiryForm'); if(!f) return;
+        var status=f.querySelector('.inq-status'), btn=f.querySelector('button[type=submit]');
+        function set(msg,cls){status.textContent=msg;status.className='inq-status '+(cls||'');}
+        f.addEventListener('submit',async function(e){
+          e.preventDefault();
+          var key=f.access_key.value;
+          if(!key||key.indexOf('PASTE_YOUR')===0){
+            set('문의 양식이 준비 중입니다. 전화(051-973-5222) 또는 이메일로 문의해 주세요.','err');return;
+          }
+          if(!f.checkValidity()){f.reportValidity();return;}
+          set('보내는 중…','');btn.disabled=true;
+          try{
+            var data=Object.fromEntries(new FormData(f));
+            var r=await fetch('https://api.web3forms.com/submit',{method:'POST',
+              headers:{'Content-Type':'application/json','Accept':'application/json'},
+              body:JSON.stringify(data)});
+            var j=await r.json();
+            if(j.success){set('문의가 정상적으로 접수되었습니다. 빠르게 연락드리겠습니다.','ok');f.reset();}
+            else{set('전송에 실패했습니다. 전화(051-973-5222)로 문의해 주세요.','err');}
+          }catch(err){set('전송 중 오류가 발생했습니다. 전화(051-973-5222)로 문의해 주세요.','err');}
+          finally{btn.disabled=false;}
+        });
+      })();
+      </script>
       <div class="contact-grid">
         <div class="reveal">
           <div class="info-row"><div class="k">주소</div><div class="v">부산광역시 강서구 유통단지1로58번길 48</div></div>
